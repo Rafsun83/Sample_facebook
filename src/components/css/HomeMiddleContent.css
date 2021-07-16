@@ -1,0 +1,159 @@
+.home__middle {
+    margin-top: 1rem;
+}
+
+/* Home middle profile image section starts */
+.homemiddle__postContent .homemiddle__profileImg {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.homemiddle__postContent .homemiddle__profileImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* Home middle profile image section ends */
+
+/* Home middle post form section starts */
+.homemiddle__profilePost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.homemiddle__postFormSection {
+    flex: 1;
+    background-color: var(--bg-light);
+    border-radius: 5px;
+}
+
+.homemiddle__postForm input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/* Home middle post form section starts */
+
+/* Home middle alternative post section starts */
+.home__middleAlternativePost {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.home__middleVideoIcon button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.home__middleVideoIcon button span {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.middle__videoBtn {
+    background-color: var(--blue-primary) !important;
+}
+
+.middle__blueIcon {
+    color: var(--blue-primary);
+}
+/* Home middle alternative post section ends */
+
+/* Home middle other post section starts */
+.homemiddle__otherPostSection {
+    display: flex;
+    /* align-items: center; */
+}
+
+/* Profile name section starts */
+.middle__profileName p:first-child {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.middle__profileName span {
+    font-weight: normal;
+}
+/* Profile name section ends */
+
+.homemiddle__otherPostSection,
+.middle__postText,
+.middle__alternativeOption,
+.middle__writeComment {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+/* Post text and time section starts */
+.middle__profileName .middle__postTime,
+.middle__postText p {
+    font-size: 0.9rem;
+}
+/* Post text and time section ends */
+
+/* Profile Image and name section starts */
+.middle__postImg {
+    width: 100%;
+    height: auto;
+}
+
+.middle__postImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Profile Image and name section ends */
+
+/* Post like, comment, share section starts */
+.middle__alternativeOption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle__commentIcon {
+    color: var(--blue-primary) !important;
+}
+
+.middle__shareIcon {
+    border-color: var(--green-primary) !important;
+    color: var(--green-primary) !important;
+}
+/* Post like, comment, share section ends */
+
+/* Write comment section starts */
+.middle__writeComment {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    width: 96%;
+    height: 2px;
+    background-color: var(--less-dark-gray);
+}
+
+.middle__writeComment .homemiddle__profileImg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.middle__writeComment .homemiddle__postFormSection {
+    background-color: var(--white-primary);
+}
+
+.middle__writeComment .homemiddle__postFormSection .react-input-emoji--container {
+    background-color: var(--bg-light) !important;
+    border-radius: 5px !important;
+}
+/* Write comment section ends */
+
+/* Home middle other post section ends */

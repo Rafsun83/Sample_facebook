@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    justify-content: space-between
+}
+
+.home__leftContent {
+    flex: 0.2;
+}
+
+.home__middleContent {
+    flex: 0.4;
+}
+
+.home__rightContent {
+    flex: 0.2;
+}
