@@ -1,153 +1,179 @@
-import React from 'react';
-import {Link} from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 // Icons
-import OndemandVideoOutlinedIcon from '@material-ui/icons/OndemandVideoOutlined';
-import PeopleAltOutlinedIcon from '@material-ui/icons/PeopleAltOutlined';
-import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
-import InsertChartOutlinedRoundedIcon from '@material-ui/icons/InsertChartOutlinedRounded';
+import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
+import NotificationsActiveOutlinedIcon from "@material-ui/icons/NotificationsActiveOutlined";
+import VideoCallOutlinedIcon from "@material-ui/icons/VideoCallOutlined";
+import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
 // Imported files
-import profileImg from "../images/profile.jpg";
-import "../css/HomeLeftContent.css";
-
+import "../css/HomeRightContent.css";
+import postImg from "../images/Post 1.jpg";
 
 const HomeRightContent = () => {
-    return (
-        <div className="home__left">
-            <div className="home__leftSection">
-                {/* Profile section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="profile__leftImg">
-                            <img src={profileImg} alt="" />
-                        </div>
-                        <div className="home__leftText">
-                            <p>Wasek Samin</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Profile section ends */}
+  return (
+    <div className="home__right">
+      {/* User pages section starts */}
 
-                {/* Covid center section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="home__leftIcon">
-                            <span class="iconify" data-icon="carbon:coronavirus" data-inline="false"></span>
-                        </div>
-                        <div className="home__leftText">
-                            <p>Covid-19 Information Center</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Covid center section ends */}
+      {/* Your pages title section starts */}
+      <div className="my__pages my-3">
+        <p className="fw-bold text-muted">Your pages</p>
+        <MoreHorizIcon className="dots__icon text-muted" />
+      </div>
+      {/* Your pages title section ends */}
 
-                {/* Friends section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="home__leftIcon">
-                            <span class="iconify" data-icon="fluent:people-add-20-regular" data-inline="false"></span>
-                        </div>
-                        <div className="home__leftText friends__text">
-                            <p>Friends</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Friends section ends */}
-
-                {/* Watch section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="watch__icon">
-                            <OndemandVideoOutlinedIcon />
-                        </div>
-                        <div className="home__leftText">
-                            <p>Watch</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Watch section ends */}
-
-                {/* Groups section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="group__icon">
-                            <PeopleAltOutlinedIcon />
-                        </div>
-                        <div className="home__leftText">
-                            <p>Groups</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Groups section ends */}
-
-                {/* Marketplace section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="market__icon">
-                            <StorefrontOutlinedIcon />
-                        </div>
-                        <div className="home__leftText">
-                            <p>Marketplace</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Marketplace section ends */}
-
-                {/* Advertising section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="home__leftIcon">
-                            <span class="iconify" data-icon="tabler:speakerphone" data-inline="false"></span>
-                        </div>
-                        <div className="home__leftText">
-                            <p>Ad Center</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Advertising section ends */}
-
-                {/* Advertise manager section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="advertiseManager__icon">
-                            <InsertChartOutlinedRoundedIcon />
-                        </div>
-                        <div className="home__leftText">
-                            <p>Ads Manager</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Advertise manager section ends */}
-
-                {/* Chat section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="home__leftIcon">
-                            <span className="chat__icon iconify" data-icon="bi:chat-left-text" data-inline="false"></span>
-                        </div>
-                        <div className="home__leftText">
-                            <p>Chat</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Chat manager section ends */}
-
-                {/* Pages section starts */}
-                <Link className="home__leftLinks">
-                    <div className="home__leftContent">
-                        <div className="home__leftIcon">
-                            <span class="iconify" data-icon="ri:pages-line" data-inline="false"></span>
-                        </div>
-                        <div className="home__leftText">
-                            <p>Pages</p>
-                        </div>
-                    </div>
-                </Link>
-                {/* Pages manager section ends */}
+      {/* Your all pages section starts */}
+      <div className="all__pages">
+        <Link className="pages__image my-2">
+          <img src={postImg} alt="" />
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        {/* Your page notification and promotion section starts */}
+        <div className="page__notify ms-3 my-2">
+          <Link className="mb-1">
+            <div>
+              <NotificationsActiveOutlinedIcon />
+              <small className="ms-2 text-muted">1 Notification</small>
             </div>
+          </Link>
+          <Link>
+            <div>
+              <span
+                className="iconify"
+                data-icon="tabler:speakerphone"
+                data-inline="false"
+              ></span>
+              <small className="ms-2 text-muted">Create Promotion</small>
+            </div>
+          </Link>
         </div>
-    )
-}
+        {/* Your page notification and promotion section ends */}
+
+        <Link className="pages__image my-2">
+          <img src={postImg} alt="" />
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        {/* Your page notification and promotion section starts */}
+        <div className="page__notify ms-3 my-2">
+          <Link className="mb-1">
+            <div>
+              <NotificationsActiveOutlinedIcon />
+              <small className="ms-2 text-muted">1 Notification</small>
+            </div>
+          </Link>
+          <Link>
+            <div>
+              <span
+                className="iconify"
+                data-icon="tabler:speakerphone"
+                data-inline="false"
+              ></span>
+              <small className="ms-2 text-muted">Create Promotion</small>
+            </div>
+          </Link>
+        </div>
+        {/* Your page notification and promotion section ends */}
+      </div>
+      {/* Your all pages section ends */}
+
+      {/* User pages section starts */}
+      <hr />
+
+      {/* User contact section starts */}
+
+      {/* Your contact title section starts  */}
+      <div className="my__contacts mb-2">
+        <p className="fw-bold text-muted">Contacts</p>
+        <div>
+          <VideoCallOutlinedIcon className="dots__icon text-muted" />
+          <SearchOutlinedIcon className="dots__icon text-muted" />
+          <MoreHorizIcon className="dots__icon text-muted" />
+        </div>
+      </div>
+      {/* Your contact title section ends  */}
+
+      {/* Your all contacts section starts */}
+      <div className="all__contacts">
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+      </div>
+      {/* Your all contacts section ends */}
+
+      {/* User contact section ends */}
+
+      <hr />
+
+      {/* User group section starts */}
+
+      {/* Your group title section starts  */}
+      <div className="my__contacts mb-2">
+        <p className="fw-bold text-muted">Group Conversations</p>
+      </div>
+      {/* Your group title section ends  */}
+
+      {/* Your all contacts section starts */}
+      <div className="all__contacts">
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+        <Link className="pages__image my-2">
+          <div>
+            <img src={postImg} alt="" />
+            <div className="online__dot"></div>
+          </div>
+          <p className="fw-bold">DevTech BD</p>
+        </Link>
+      </div>
+      {/* Your all contacts section ends */}
+
+      {/* User group section ends */}
+    </div>
+  );
+};
 
 export default HomeRightContent;

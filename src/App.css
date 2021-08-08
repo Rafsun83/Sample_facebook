@@ -1,26 +1,31 @@
-/* Poppins font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Raleway font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
 * {
   text-decoration: none !important;
   list-style: none !important;
   box-sizing: border-box !important;
-  font-family: var(--poppins);
+  font-family: var(--raleway);
 }
 
 :root {
   /* Colors */
-  --bg-light: #F0F2F5;
-  --bg-dark: #18191A;
+  --bg-light: #f0f2f5;
+  --bg-dark: #18191a;
+  --highlight-gray: #e4e6e8;
   --white-primary: #fff;
-  --black-primary: #000;
+  --dark-primary: #333;
   --dark-gray: #65676b;
   --less-dark-gray: #606770;
   --primary-color: #426bb1;
   --blue-primary: #0d6efd;
   --green-primary: #198754;
   /* Fonts */
-  --poppins: 'Poppins', sans-serif;
+  --raleway: 'Raleway', sans-serif;
+}
+
+a {
+  color: var(--dark-primary) !important;
 }
 
 body {

@@ -116,7 +116,7 @@ const HomeMiddleContent = () => {
                                 color="secondary"
                             >
                                 <FavoriteBorderOutlinedIcon />
-                                <span className="ps-1">Mark as Favorite</span>
+                                <span className="ps-1">Like</span>
                             </Button>
                             <Button 
                                 className="middle__shareIcon"

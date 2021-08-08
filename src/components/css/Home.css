@@ -1,16 +1,60 @@
 .home {
-    display: flex;
-    justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
 
 .home__leftContent {
-    flex: 0.2;
+  flex: 0.2;
 }
 
 .home__middleContent {
-    flex: 0.4;
+  margin-left: 1.8rem;
+  flex: 0.4;
 }
 
 .home__rightContent {
-    flex: 0.2;
+  flex: 0.2;
+}
+
+@media (max-width: 1099px) {
+  .home__leftContent {
+    flex: 0;
+  }
+
+  .home__middleContent {
+    flex: 0.6;
+    margin-left: 0;
+  }
+
+  .home__rightContent {
+    flex: 0.3;
+  }
+}
+
+@media (max-width: 899px) {
+  .home {
+    display: block;
+  }
+  .home__middleContent {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .home__middleContent {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .home__middleContent {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .home__middleContent {
+    width: 100%;
+  }
 }

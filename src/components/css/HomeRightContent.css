@@ -1,3 +1,307 @@
 .home__right {
-    
+  /* background: red; */
+  padding-right: 0.9rem;
+  position: fixed;
+  width: 20%;
+  top: 10%;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.home__right::-webkit-scrollbar {
+  width: 17px;
+}
+
+.home__right::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 9999px;
+  outline: none;
+}
+
+/* User pages section starts */
+
+/* Your pages title section starts */
+.my__pages,
+.my__contacts,
+.my__groups {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my__pages > p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.dots__icon {
+  cursor: pointer;
+}
+/* Your pages title section ends */
+
+/* Your all pages section starts */
+.pages__image {
+  display: flex;
+  align-items: center;
+  padding: 4px 7px;
+  border-radius: 0.2rem;
+}
+
+.pages__image:hover {
+  background-color: var(--white-primary);
+}
+
+.pages__image img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.pages__image > div {
+  position: relative;
+}
+
+.pages__image .online__dot {
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: #198754;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.pages__image > p {
+  font-size: 0.9rem;
+  margin-block-end: 0 !important;
+}
+/* Your all pages section ends */
+
+/* Your page notification and promotion section starts */
+.page__notify a div {
+  padding: 4px 7px;
+  border-radius: 0.2rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.page__notify a:hover div {
+  background-color: var(--white-primary);
+}
+
+.page__notify div > .iconify {
+  font-size: 1.4rem;
+}
+
+.page__notify div > small {
+  font-weight: 500;
+}
+/* Your page notification and promotion section ends */
+
+/* User pages section ends */
+
+/* User contact section starts  */
+
+/* Your contact title section starts */
+
+.my__contacts > p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.my__contacts > div svg {
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.my__contacts > div svg:hover {
+  background-color: var(--white-primary);
+}
+
+.my__contacts > div svg:last-child {
+  margin-right: 0;
+}
+/* Your contact title section ends */
+
+/* Your all contacts section starts */
+
+/* Your all contacts section ends */
+
+/* User contact section ends  */
+
+/* Responsive section */
+
+@media (min-height: 690px) {
+  .home__right {
+    top: 9.5%;
+  }
+}
+
+@media (min-height: 750px) {
+  .home__right {
+    top: 9%;
+  }
+}
+
+@media (min-height: 780px) {
+  .home__right {
+    top: 8.5%;
+  }
+}
+
+@media (min-height: 820px) {
+  .home__right {
+    top: 8%;
+  }
+}
+
+@media (min-height: 850px) {
+  .home__right {
+    top: 7.5%;
+  }
+}
+
+@media (min-height: 920px) {
+  .home__right {
+    top: 7%;
+  }
+}
+
+@media (min-height: 990px) {
+  .home__right {
+    top: 6.5%;
+  }
+}
+
+@media (min-height: 1070px) {
+  .home__right {
+    top: 6%;
+  }
+}
+
+@media (min-height: 1170px) {
+  .home__right {
+    top: 5.5%;
+  }
+}
+
+@media (min-height: 1270px) {
+  .home__right {
+    top: 5%;
+  }
+}
+
+@media (min-height: 1370px) {
+  .home__right {
+    top: 4.7%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .home__right {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .home__right {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1530px) {
+  .home__right {
+    top: 4.3%;
+  }
+}
+
+@media (min-height: 1600px) {
+  .home__right {
+    top: 4%;
+  }
+}
+
+@media (min-height: 1700px) {
+  .home__right {
+    top: 3.8%;
+  }
+}
+
+@media (min-height: 1790px) {
+  .home__right {
+    top: 3.6%;
+  }
+}
+
+@media (min-height: 1890px) {
+  .home__right {
+    top: 3.4%;
+  }
+}
+
+@media (min-height: 1970px) {
+  .home__right {
+    top: 3.3%;
+  }
+}
+
+@media (min-height: 2000px) {
+  .home__right {
+    top: 3.2%;
+  }
+}
+
+@media (min-height: 2100px) {
+  .home__right {
+    top: 3%;
+  }
+}
+
+@media (min-height: 2300px) {
+  .home__right {
+    top: 2.7%;
+  }
+}
+
+@media (min-height: 2450px) {
+  .home__right {
+    top: 2.5%;
+  }
+}
+
+@media (min-height: 2800px) {
+  .home__right {
+    top: 2.3%;
+  }
+}
+
+@media (min-height: 3000px) {
+  .home__right {
+    top: 2.2%;
+  }
+}
+
+@media (max-width: 1099px) {
+  .home__right {
+    /* background: red; */
+    width: 30%;
+  }
+
+  .home__right::-webkit-scrollbar {
+    width: 15px;
+  }
+}
+
+@media (max-width: 899px) {
+    .home__right {
+        display: none;
+    }
 }

@@ -33,7 +33,7 @@ const HomeLeftContent = () => {
                 <Link className="home__leftLinks">
                     <div className="home__leftContent">
                         <div className="home__leftIcon">
-                            <span class="iconify" data-icon="carbon:coronavirus" data-inline="false"></span>
+                            <span className="iconify" data-icon="carbon:coronavirus" data-inline="false"></span>
                         </div>
                         <div className="home__leftText">
                             <p>Covid-19 Information Center</p>
@@ -46,7 +46,7 @@ const HomeLeftContent = () => {
                 <Link className="home__leftLinks">
                     <div className="home__leftContent">
                         <div className="home__leftIcon">
-                            <span class="iconify" data-icon="fluent:people-add-20-regular" data-inline="false"></span>
+                            <span className="iconify" data-icon="fluent:people-add-20-regular" data-inline="false"></span>
                         </div>
                         <div className="home__leftText friends__text">
                             <p>Friends</p>
@@ -98,7 +98,7 @@ const HomeLeftContent = () => {
                 <Link className="home__leftLinks">
                     <div className="home__leftContent">
                         <div className="home__leftIcon">
-                            <span class="iconify" data-icon="tabler:speakerphone" data-inline="false"></span>
+                            <span className="iconify" data-icon="tabler:speakerphone" data-inline="false"></span>
                         </div>
                         <div className="home__leftText">
                             <p>Ad Center</p>
@@ -137,7 +137,7 @@ const HomeLeftContent = () => {
                 <Link className="home__leftLinks">
                     <div className="home__leftContent">
                         <div className="home__leftIcon">
-                            <span class="iconify" data-icon="ri:pages-line" data-inline="false"></span>
+                            <span className="iconify" data-icon="ri:pages-line" data-inline="false"></span>
                         </div>
                         <div className="home__leftText">
                             <p>Pages</p>
