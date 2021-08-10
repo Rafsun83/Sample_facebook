@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 
@@ -20,19 +20,36 @@ import MenuIcon from "@material-ui/icons/Menu";
 
 // Imported files
 import "../css/Header.css";
+import HeaderDropItems from "./HeaderDropItems";
 import logoImg from "../images/logo.jpg";
 import profileImg from "../images/profile.jpg";
 
+// Imported context files
+import {DropItemsContext} from "../ContextData/DropItemsContext";
+
 const Header = () => {
+  const {showDropItems, setShowDropItems} = useContext(DropItemsContext);
+
+  const onDropItems = () => {
+    setShowDropItems(!showDropItems);
+
+    if (showDropItems) {
+      document.getElementById("myBody").style.overflowY = "auto";
+    } else {
+      document.getElementById("myBody").style.overflowY = "hidden";
+    }
+  }
+
   return (
     <div className="header">
       {/* Header left section starts */}
       <div className="header__links">
         {/* Logo image section starts */}
-        <div className="logo__img">
+        <Link className="logo__img" to="/">
           <img src={logoImg} alt="" />
-        </div>
+        </Link>
         {/* Logo image section ends */}
+
         {/* Header searchbar section starts */}
         <div className="search__onMaxScreen">
           <form method="GET" className="header__searchbar">
@@ -63,11 +80,13 @@ const Header = () => {
 
         <div className="header__icons mobile__burgerMenu">
           <Tooltip title="More">
-            <Button className="icon__link">
+            <Button className="icon__link" onClick={onDropItems}>
               <MenuIcon className="header__icon" />
             </Button>
           </Tooltip>
         </div>
+
+        {showDropItems && <HeaderDropItems />}
       </div>
       {/* Header left section ends */}
 
@@ -111,10 +130,15 @@ const Header = () => {
         </div>
         <div className="header__icons tab__burgerMenu">
           <Tooltip title="More">
-            <Button className="icon__link">
+            <Button
+              className="icon__link"
+              onClick={onDropItems}
+            >
               <MenuIcon className="header__icon" />
             </Button>
           </Tooltip>
+
+          {showDropItems && <HeaderDropItems />}
         </div>
       </div>
       {/* Header icons section ends */}

@@ -1,0 +1,116 @@
+/* Covid info published date section starts */
+.covid__infoPublishedDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Covid info published date section ends */
+
+/* Covid info slider section starts */
+
+/* Slick js slider button section starts */
+/* the slides */
+.slick-slide {
+  margin: 0 6px;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  z-index: 5;
+  background: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 1;
+  opacity: 0.75;
+  color: var(--blue-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hide__slider {
+  overflow: hidden;
+  visibility: hidden;
+}
+/* Slick js slider button section ends */
+
+/* Covid card info section starts */
+.covid__infoCard {
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.covid__infoCard:hover {
+  background-color: var(--bg-light);
+}
+
+.covid__country > h6,
+.covid__caseContent div p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+.covid__caseContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.covid__caseContent > div div .iconify {
+  font-size: 1.3rem;
+  color: var(--blue-primary);
+}
+
+.covid__infoUpdatedTime {
+  font-size: 0.8rem;
+}
+/* Covid card info section ends */
+
+/* Covid more data section starts */
+.covid__moreData {
+  height: 8.4rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.covid__moreData:hover {
+  background-color: var(--bg-light);
+}
+
+.covid__moreData > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid__moreDataArrowIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--highlight-gray);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+/* Covid more data section ends */
+
+/* Covid info slider section starts */

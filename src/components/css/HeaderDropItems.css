@@ -1,0 +1,225 @@
+.header__dropItems {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-light);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Header drop all links section starts */
+
+.header__dropLinks {
+    position: absolute;
+    top: 0.5%;
+    left: 0;
+    width: 100%;
+}
+
+/* Profile and facebook page section starts */
+.drop__items {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.drop__items:hover {
+    background-color: var(--white-primary);
+}
+
+.drop__profile__img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.drop__profile__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.drop__profileName > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-left: 0.5rem;
+}
+/* Profile and facebook page section ends */
+
+.horizontal__line {
+  margin: 0 1rem 0.8rem 1rem;
+}
+
+/* User shortcut section starts */
+.drop__userShortCuts:last-child {
+  margin-bottom: 4rem;
+}
+
+.drop__userShortCuts > p {
+  margin-block-end: 0 !important;
+  font-size: 1.1rem;
+}
+/* User shortcut section ends */
+
+/* Header drop all links section ends */
+
+/* Responsive section */
+
+@media (min-height: 690px) {
+  .header__dropItems {
+    top: 9.5%;
+  }
+}
+
+@media (min-height: 750px) {
+  .header__dropItems {
+    top: 9%;
+  }
+}
+
+@media (min-height: 780px) {
+  .header__dropItems {
+    top: 8.5%;
+  }
+}
+
+@media (min-height: 820px) {
+  .header__dropItems {
+    top: 8%;
+  }
+}
+
+@media (min-height: 850px) {
+  .header__dropItems {
+    top: 7.5%;
+  }
+}
+
+@media (min-height: 920px) {
+  .header__dropItems {
+    top: 7%;
+  }
+}
+
+@media (min-height: 990px) {
+  .header__dropItems {
+    top: 6.5%;
+  }
+}
+
+@media (min-height: 1070px) {
+  .header__dropItems {
+    top: 6%;
+  }
+}
+
+@media (min-height: 1170px) {
+  .header__dropItems {
+    top: 5.5%;
+  }
+}
+
+@media (min-height: 1270px) {
+  .header__dropItems {
+    top: 5%;
+  }
+}
+
+@media (min-height: 1370px) {
+  .header__dropItems {
+    top: 4.7%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .header__dropItems {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .header__dropItems {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1530px) {
+  .header__dropItems {
+    top: 4.3%;
+  }
+}
+
+@media (min-height: 1600px) {
+  .header__dropItems {
+    top: 4%;
+  }
+}
+
+@media (min-height: 1700px) {
+  .header__dropItems {
+    top: 3.8%;
+  }
+}
+
+@media (min-height: 1790px) {
+  .header__dropItems {
+    top: 3.6%;
+  }
+}
+
+@media (min-height: 1890px) {
+  .header__dropItems {
+    top: 3.4%;
+  }
+}
+
+@media (min-height: 1970px) {
+  .header__dropItems {
+    top: 3.3%;
+  }
+}
+
+@media (min-height: 2000px) {
+  .header__dropItems {
+    top: 3.2%;
+  }
+}
+
+@media (min-height: 2100px) {
+  .header__dropItems {
+    top: 3%;
+  }
+}
+
+@media (min-height: 2300px) {
+  .header__dropItems {
+    top: 2.7%;
+  }
+}
+
+@media (min-height: 2450px) {
+  .header__dropItems {
+    top: 2.5%;
+  }
+}
+
+@media (min-height: 2800px) {
+  .header__dropItems {
+    top: 2.3%;
+  }
+}
+
+@media (min-height: 3000px) {
+  .header__dropItems {
+    top: 2.2%;
+  }
+}
+
+@media (max-width: 360px) {
+  .drop__items {
+    font-size: 0.9rem;
+  }
+}
