@@ -77,7 +77,84 @@ const HomeMiddleContent = () => {
 
                 {/* Home middle other post section starts */}
                 <div className="home__middleAllPosts">
-                    <div className="card py-3">
+                    <div className="card py-3 mb-3">
+                        {/* Profile Image and name section starts */}
+                        <div className="homemiddle__otherPostSection">
+                            <div className="homemiddle__profileImg">
+                                <img src={profileImg} alt="" />
+                            </div>
+                            <div className="middle__profileName">
+                                <p>Wasek Samin <span className="text-muted">posted an update</span></p>
+                                <p className="text-muted middle__postTime">2 hours ago</p>
+                            </div>
+                        </div>
+                        {/* Profile Image and name section ends */}
+                        {/* Post text section starts */}
+                        <div className="middle__postText">
+                            <p>Some dummy text...</p>
+                        </div>
+                        {/* Post text section ends */}
+                        {/* Post image section starts */}
+                        <div className="middle__postImg">
+                            <img src={profileImg} alt="" />
+                        </div>
+                        {/* Post image section ends */}
+                        {/* Post like, comment, share section starts */}
+                        <div className="middle__alternativeOption mt-3">
+                            <Button 
+                                className="middle__commentIcon"
+                                variant="outlined"
+                                color="primary"
+                                onClick={() => setEnableWriteComment(true)}
+                            >
+                                <ChatBubbleOutlineIcon />
+                                <span className="ps-1">Comment</span>
+                            </Button>
+                            <Button 
+                                className="middle__heartIcon"
+                                variant="outlined"
+                                color="secondary"
+                            >
+                                <FavoriteBorderOutlinedIcon />
+                                <span className="ps-1">Like</span>
+                            </Button>
+                            <Button 
+                                className="middle__shareIcon"
+                                variant="outlined"
+                                color="primary"
+                            >
+                                <ShareOutlinedIcon />
+                                <span className="ps-1">Share</span>
+                            </Button>
+                        </div>
+                        {/* Post like, comment, share section ends */}
+
+                        {/* Write comment section starts */}
+                        {
+                            enableWriteComment &&
+                            <>
+                                <div className="border container mt-3 mb-2"></div>
+                                <div className="middle__writeComment">
+                                    <div className="homemiddle__profileImg">
+                                        <img src={profileImg} alt="" />
+                                    </div>
+                                    <div className="homemiddle__postFormSection">
+                                        <InputEmoji
+                                            multiline
+                                            value={postText}
+                                            onChange={setPostText}
+                                            cleanOnEnter
+                                            onEnter={handleOnEmojiClick}
+                                            placeholder="Write a public comment..."
+                                        />
+                                    </div>
+                                </div>
+                            </>
+                        }
+                        {/* Write comment section ends */}
+                    </div>
+
+                    <div className="card mb-3 py-3">
                         {/* Profile Image and name section starts */}
                         <div className="homemiddle__otherPostSection">
                             <div className="homemiddle__profileImg">

@@ -44,6 +44,44 @@ const CovidInfoSlider = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          dots: false,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 1.75,
+          slidesToScroll: 1,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+        },
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          dots: false,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 1.3,
+          slidesToScroll: 1,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+        },
+      },
+      {
+        breakpoint: 430,
+        settings: {
+          dots: false,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+        },
+      },
+    ],
   };
 
   // Dummy data

@@ -3,13 +3,13 @@
 }
 
 /* Home middle profile image section starts */
-.homemiddle__postContent .homemiddle__profileImg {
+.homemiddle__profileImg {
   width: 3rem;
   height: 3rem;
   margin-right: 0.5rem;
 }
 
-.homemiddle__postContent .homemiddle__profileImg img {
+.homemiddle__profileImg img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -110,6 +110,7 @@
 .middle__postImg img {
   width: 100%;
   height: 100%;
+  max-height: 26.875rem;
   object-fit: contain;
 }
 /* Profile Image and name section ends */

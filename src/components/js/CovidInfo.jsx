@@ -12,9 +12,13 @@ import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import "../css/CovidInfo.css";
 import "./CovidInfoSlider";
 import CovidInfoSlider from "./CovidInfoSlider";
+import CovidPreventionTipSlider from "./CovidPreventionTipSlider";
 import boardImg from "../images/board.png";
 import womanImg from "../images/woman.png";
 import virusImg from "../images/virus.png";
+import preventImg from "../images/prevention.png";
+import CovidInfoPosts from "./CovidInfoPosts";
+import CovidFollowOrgsSliderForMobile from "./CovidFollowOrgsSliderForMobile";
 
 const CovidInfo = () => {
   // Show page top section starts
@@ -26,7 +30,7 @@ const CovidInfo = () => {
         <div className="page__info">
           <div className="page__bgContent">
             {/* Page title content section starts */}
-            <div className="page__titleContent">
+            <div className="page__titleContent mb-2">
               <p className="text-muted">Fivour</p>
               <p className="fw-bold">Covid-19 Information Center</p>
               <p>Follow for updates and notifications</p>
@@ -39,17 +43,19 @@ const CovidInfo = () => {
                 <LibraryAddOutlinedIcon className="me-2" />
                 Follow
               </Button>
-              <Tooltip title="Share">
-                <Button>
-                  <ShareOutlinedIcon />
-                </Button>
-              </Tooltip>
+              <div className="shared__infoBtn">
+                <Tooltip title="Share">
+                  <Button>
+                    <ShareOutlinedIcon />
+                  </Button>
+                </Tooltip>
 
-              <Tooltip title="Info">
-                <Button>
-                  <InfoOutlinedIcon />
-                </Button>
-              </Tooltip>
+                <Tooltip title="Info">
+                  <Button>
+                    <InfoOutlinedIcon />
+                  </Button>
+                </Tooltip>
+              </div>
             </div>
             {/* Page follow content section ends */}
           </div>
@@ -70,8 +76,13 @@ const CovidInfo = () => {
         </h6>
 
         <div className="covid__learnMorePage">
-          <Button variant="contained">Visit corona.govt.bd</Button>
-          <Tooltip title="Leading Health Organizations">
+          <Link>
+            <Button variant="contained">Visit corona.govt.bd</Button>
+          </Link>
+          <Tooltip
+            className="covid__infoBtn"
+            title="Leading Health Organizations"
+          >
             <Button variant="contained">
               <InfoOutlinedIcon />
             </Button>
@@ -85,7 +96,7 @@ const CovidInfo = () => {
   // Show covid facts section starts
   const showCovidFactSection = () => {
     return (
-      <div className="covid__facts card p-3">
+      <div className="covid__facts card my-3 p-3">
         <h6 className="fw-bold">Facts About Covid-19</h6>
         <p className="text=muted covid__factText">
           These facts come from leading health organizations. They correct
@@ -93,7 +104,7 @@ const CovidInfo = () => {
         </p>
 
         <div className="covid__factsContent">
-          <Link>
+          <Link className="mb-2">
             <div className="covid__img">
               <img src={boardImg} alt="" />
             </div>
@@ -105,7 +116,7 @@ const CovidInfo = () => {
             </div>
           </Link>
 
-          <Link>
+          <Link className="mb-2">
             <div className="covid__img">
               <img src={womanImg} alt="" />
             </div>
@@ -117,7 +128,7 @@ const CovidInfo = () => {
             </div>
           </Link>
 
-          <Link>
+          <Link className="mb-2">
             <div className="covid__img">
               <img src={virusImg} alt="" />
             </div>
@@ -130,11 +141,11 @@ const CovidInfo = () => {
           </Link>
         </div>
 
-        <div className="covid__seeAll my-2">
+        <Link className="covid__seeAll my-2">
           <Button variant="contained" className="fw-bold">
             See All
           </Button>
-        </div>
+        </Link>
 
         <div className="covid__sources">
           <span>Sources: </span>
@@ -160,54 +171,72 @@ const CovidInfo = () => {
           <div className="covid__followOrgs">
             <div className="my-2">
               <div className="covid__followOrgsImg">
-                <img src={virusImg} alt="" />
+                <Link>
+                  <img src={virusImg} alt="" />
+                </Link>
               </div>
               <div className="covid__followOrgsTitle">
-                <p className="fw-bold">
-                  Directorate Generate of Health Services
-                </p>
+                <Link>
+                  <p className="fw-bold">
+                    Directorate Generate of Health Services
+                  </p>
+                </Link>
                 <div>
                   <small className="text-muted">Government Organization</small>
                 </div>
                 <div className="covid__OrgsFollowBtn my-2">
                   <Button variant="contained">Follow</Button>
-                  <Button variant="contained">Visit Website</Button>
+                  <Link>
+                    <Button variant="contained">Visit Website</Button>
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="my-2">
               <div className="covid__followOrgsImg">
-                <img src={virusImg} alt="" />
+                <Link>
+                  <img src={virusImg} alt="" />
+                </Link>
               </div>
               <div className="covid__followOrgsTitle">
-                <p className="fw-bold">
-                  Directorate Generate of Health Services
-                </p>
+                <Link>
+                  <p className="fw-bold">
+                    Directorate Generate of Health Services
+                  </p>
+                </Link>
                 <div>
                   <small className="text-muted">Government Organization</small>
                 </div>
                 <div className="covid__OrgsFollowBtn my-2">
                   <Button variant="contained">Follow</Button>
-                  <Button variant="contained">Visit Website</Button>
+                  <Link>
+                    <Button variant="contained">Visit Website</Button>
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="my-2">
               <div className="covid__followOrgsImg">
-                <img src={virusImg} alt="" />
+                <Link>
+                  <img src={virusImg} alt="" />
+                </Link>
               </div>
               <div className="covid__followOrgsTitle">
-                <p className="fw-bold">
-                  Directorate Generate of Health Services
-                </p>
+                <Link>
+                  <p className="fw-bold">
+                    Directorate Generate of Health Services
+                  </p>
+                </Link>
                 <div>
                   <small className="text-muted">Government Organization</small>
                 </div>
                 <div className="covid__OrgsFollowBtn my-2">
                   <Button variant="contained">Follow</Button>
-                  <Button variant="contained">Visit Website</Button>
+                  <Link>
+                    <Button variant="contained">Visit Website</Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -217,6 +246,142 @@ const CovidInfo = () => {
     );
   };
   // Show covid follow organization section ends
+
+  const showCovidFollowOrgsForMobileScreen = () => {
+    return (
+      <div className="covid__followOrganizationsMobile">
+        <div className="card p-3">
+          <h6 className="fw-bold">Leading Health Organizations</h6>
+
+          <CovidFollowOrgsSliderForMobile />
+        </div>
+      </div>
+    );
+  };
+
+  // Show covid prevention tip section starts
+  const showCovidPreventionTip = () => {
+    return (
+      <div className="card p-3 covid__preventionCard my-2">
+        <h6 className="fw-bold">Common Prevention Tips</h6>
+        <div className="mb-3">
+          <small className="text-muted">Protect yourself and others</small>
+        </div>
+
+        {/* Covid prevention tip slider */}
+        <CovidPreventionTipSlider />
+
+        <div className="covid__preventionSource">
+          <small>Source: World Health Organization</small>
+        </div>
+      </div>
+    );
+  };
+  // Show covid prevention tip section ends
+
+  // Show covid find support section starts
+  const showCovidFindSupport = () => {
+    return (
+      <div className="card p-3 my-2">
+        <h5 className="fw-bold">Find the Support You Need</h5>
+        <p className="text-muted">
+          See ideas from experts on positive steps you can take to support your
+          emotional health.
+        </p>
+
+        <div className="covid__supportContent">
+          <Link className="covid__supportContext mb-3">
+            <div className="covid__supportImg">
+              <img src={preventImg} alt="" />
+            </div>
+
+            <div>
+              <small className="text-muted">5 Tips</small>
+
+              <h5 className="fw-bold">Experiencing Domestic Abuse</h5>
+            </div>
+          </Link>
+        </div>
+
+        <div className="covid__supportContent mb-3">
+          <Link className="covid__supportContext">
+            <div className="covid__supportImg">
+              <img src={preventImg} alt="" />
+            </div>
+
+            <div>
+              <small className="text-muted">5 Tips</small>
+
+              <h5 className="fw-bold">Experiencing Domestic Abuse</h5>
+            </div>
+          </Link>
+        </div>
+      </div>
+    );
+  };
+  // Show covid find support section ends
+
+  // Show covid emotional section starts
+  const showCovidEmotionalHealth = () => {
+    return (
+      <div className="card p-3 my-2">
+        <h5 className="fw-bold">Emotional Health</h5>
+        <p className="text-muted">
+          See ideas from experts on positive steps you can take to support your
+          emotional health.
+        </p>
+
+        <div className="covid__supportContent">
+          <Link className="covid__supportContext mb-3">
+            <div className="covid__supportImg">
+              <img src={preventImg} alt="" />
+            </div>
+
+            <div className="mt-1">
+              <small className="text-muted">7 Tips</small>
+
+              <h5 className="fw-bold">Depression What You Should Know</h5>
+            </div>
+          </Link>
+        </div>
+
+        <div className="covid__supportContent mb-3">
+          <Link className="covid__supportContext">
+            <div className="covid__supportImg">
+              <img src={preventImg} alt="" />
+            </div>
+
+            <div className="mt-1">
+              <small className="text-muted">6 Tips</small>
+
+              <h5 className="fw-bold">Managing Stress</h5>
+            </div>
+          </Link>
+        </div>
+
+        <div className="covid__supportContent mb-3">
+          <Link className="covid__supportContext">
+            <div className="covid__supportImg">
+              <img src={preventImg} alt="" />
+            </div>
+
+            <div className="mt-1">
+              <small className="text-muted">6 Tips</small>
+
+              <h5 className="fw-bold">Navigating Grief and Loss</h5>
+            </div>
+          </Link>
+        </div>
+
+        {/* Visit emotional health button section starts */}
+        <Link className="covid__visitEmotionalHealthBtn">
+          <Button variant="contained">Visit Emotional Health</Button>
+        </Link>
+        {/* Visit emotional health button section ends */}
+      </div>
+    );
+  };
+  // Show covid emotional section ends
 
   return (
     <div className="covid__info container">
@@ -237,11 +402,33 @@ const CovidInfo = () => {
           {/* Covid facts section starts */}
           {showCovidFactSection()}
           {/* Covid facts section ends */}
+
+          {/* Covid page posts section starts */}
+          <CovidInfoPosts />
+          {/* Covid page posts section ends */}
+
+          {/* Covid prevention tips section starts */}
+          {showCovidPreventionTip()}
+          {/* Covid prevention tips section ends */}
+
+          {/* For small/medium screen */}
+          {/* Covid follow organization section starts */}
+          {showCovidFollowOrgsForMobileScreen()}
+          {/* Covid follow organization section starts */}
+
+          {/* Covid find support section starts */}
+          {showCovidFindSupport()}
+          {/* Covid find support section ends */}
+
+          {/* Covid emotional health section starts */}
+          {showCovidEmotionalHealth()}
+          {/* Covid emotional health section ends */}
         </div>
         {/* Page left section ends */}
 
         {/* Page right section starts */}
 
+        {/* For big screen */}
         {/* Covid follow organization section starts */}
         {showCovidFollowOrgs()}
         {/* Covid follow organization section starts */}

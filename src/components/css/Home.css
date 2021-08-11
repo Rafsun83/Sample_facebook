@@ -41,13 +41,7 @@
   }
 }
 
-@media (max-width: 575px) {
-  .home__middleContent {
-    width: 90%;
-  }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .home__middleContent {
     width: 100%;
   }

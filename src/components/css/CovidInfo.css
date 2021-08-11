@@ -53,6 +53,7 @@
 /* Page follow content section starts */
 .page__followContent {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -77,117 +78,299 @@
 
 /* Learn more about corona virus section starts */
 .covid__learnMorePage {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.covid__learnMorePage button:first-child {
-    flex: 1;
-    margin-right: 1rem;
+.covid__learnMorePage > a {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.covid__learnMorePage > a > button {
+  width: 100%;
 }
 
 .covid__learnMorePage button {
-    text-transform: none;
-    font-weight: bold;
+  text-transform: none;
+  font-weight: bold;
 }
 /* Learn more about corona virus section ends */
 
-
 /* Covid facts section starts */
 .covid__facts .covid__factText {
-    margin-block-start: 0 !important;
-    font-size: 0.9rem;
+  margin-block-start: 0 !important;
+  font-size: 0.9rem;
 }
 
 .covid__factsContent a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
 }
 
 .covid__factsContent a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .covid__factsContent a > .covid__img {
-    width: 6rem;
-    height: 6rem;
-    margin-right: 0.5rem;
+  min-width: 6rem;
+  max-width: 6rem;
+  height: 6rem;
+  margin-right: 0.5rem;
 }
 
 .covid__factsContent a > .covid__img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .covid__factsContent .covid__factContext {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 }
 
 .covid__seeAll {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .covid__seeAll > button {
-    flex: 1;
-    text-transform: none;
+  flex: 1;
+  text-transform: none;
 }
 
 .covid__sources {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .covid__sources a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 /* Covid facts section ends */
 
-
 /* Page right section starts */
+.covid__followOrganizationsMobile {
+    display: none;
+}
+
 .covid__followOrgs > div {
-    display: flex;
+  display: flex;
 }
 
 .covid__followOrgsImg {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-right: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
 }
 
 .covid__followOrgsImg img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.covid__followOrgsTitle a:hover {
+    text-decoration: underline !important;
 }
 
 .covid__followOrgsTitle p {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 }
 
 .covid__followOrgsTitle small {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .covid__OrgsFollowBtn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .covid__OrgsFollowBtn button {
-    flex: 0.5;
+  flex: 0.5;
 }
 
-.covid__OrgsFollowBtn button:first-child {
-    margin-right: 0.5rem;
-    background-color: var(--blue-primary) !important;
-    color: var(--white-primary) !important;
+.covid__OrgsFollowBtn a {
+  flex: 1;
 }
+
+.covid__OrgsFollowBtn a:hover {
+    text-decoration: none !important;
+}
+
+.covid__OrgsFollowBtn a > button {
+  width: 100%;
+}
+
+.covid__OrgsFollowBtn > button {
+  margin-right: 0.5rem;
+  background-color: var(--blue-primary) !important;
+  color: var(--white-primary) !important;
+}
+
+/* .covid prevention tips section starts */
+.covid__preventionCard > h6 {
+  margin-block-end: 0 !important;
+}
+
+.covid__preventionSource > small {
+  font-size: 0.8rem;
+}
+
+/* .covid prevention tips section ends */
+
+/* Covid find support section starts */
+.covid__supportContext {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.covid__supportContext:hover {
+  text-decoration: underline !important;
+}
+
+.covid__supportImg {
+  width: 12rem;
+  height: 7rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.covid__supportImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+/* Covid find support section ends */
+
+/* Covid emotional health section starts */
+.covid__visitEmotionalHealthBtn {
+  display: flex;
+}
+
+.covid__visitEmotionalHealthBtn > button {
+  text-transform: none;
+  flex: 1;
+  font-weight: bold;
+}
+/* Covid emotional health section ends */
+
 /* Page right section ends */
+
+/* Responsive section */
+@media (max-width: 991px) {
+  .covid__info {
+    max-width: 90% !important;
+  }
+
+  .covid__infoContent {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+  }
+
+  .covid__followOrganizations {
+      display: none;
+  }
+
+  .covid__followOrganizationsMobile {
+      display: inherit;
+  }
+}
+
+@media (max-width: 767px) {
+  .covid__info {
+    max-width: 95% !important;
+  }
+
+  .slick-prev {
+      left: -17px !important;
+  }
+
+  .page__titleContent {
+    max-width: 100%;
+  }
+
+  .page__titleContent p:first-child {
+    font-size: 0.9rem;
+  }
+
+  .page__titleContent p:nth-child(2) {
+    font-size: 1.3rem;
+  }
+
+  .page__titleContent p:last-child {
+    font-size: 0.8rem;
+  }
+
+  .page__followContent .page__followBtn {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .covid__factsContent a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .page__bg {
+    height: 40vh;
+  }
+
+  .slick-next {
+    right: -15px !important;
+}
+
+  .covid__info {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .page__bgContent {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .covid__factsContent a {
+    font-size: 0.7rem;
+  }
+
+  .page__info {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .page__info {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 308px) {
+  .covid__learnMorePage {
+    display: block;
+  }
+
+  .covid__infoBtn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 311px) {
+  .page__followBtn {
+    margin-bottom: 0.5rem !important;
+  }
+}
