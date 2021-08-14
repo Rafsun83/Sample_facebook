@@ -19,13 +19,13 @@ import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import MenuIcon from "@material-ui/icons/Menu";
 
 // Imported files
-import "../css/Header.css";
+import "../../css/Header/Header.css";
 import HeaderDropItems from "./HeaderDropItems";
-import logoImg from "../images/logo.jpg";
-import profileImg from "../images/profile.jpg";
+import logoImg from "../../images/logo.jpg";
+import profileImg from "../../images/profile.jpg";
 
 // Imported context files
-import {DropItemsContext} from "../ContextData/DropItemsContext";
+import {DropItemsContext} from "../../ContextData/DropItemsContext";
 
 const Header = () => {
   const {showDropItems, setShowDropItems} = useContext(DropItemsContext);

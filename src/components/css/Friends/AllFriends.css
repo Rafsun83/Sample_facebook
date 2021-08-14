@@ -1,0 +1,253 @@
+/* All friends left header search bar section starts */
+.all__friendsSearchBox {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  background-color: var(--bg-light);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.all__friendsSearchBox form {
+  flex: 1;
+}
+
+.all__friendsSearchBox form > input {
+  width: 100%;
+  border: none !important;
+  background-color: transparent;
+}
+
+.all__friendsSearchBox form > input:focus {
+  outline: none;
+  border: none;
+}
+/* All friends left header search bar section ends */
+
+/* All friends body section starts */
+.all__friendsContext {
+  position: relative;
+  height: 68%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.all__friendsContext::-webkit-scrollbar {
+  width: 6px;
+}
+
+.all__friendsContext::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 9999px;
+  outline: none;
+}
+
+.all__friendsBodyText {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.all__friendsBodyText > .friend__requestsPersonNameAndDate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all__friendsDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2rem;
+  max-width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.all__friendsDots:hover {
+  background-color: var(--white-primary);
+}
+/* All friends body section ends */
+
+/* Responsive section */
+
+@media (max-width: 1099px) {
+  /* Friends mobile top header section starts */
+  .all__friendTopSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .all__friendTopSection p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-size: 1.2rem;
+  }
+  /* Friends mobile top header section ends */
+
+  /* Mobile friend request header section starts */
+  .all__friendMobileSearchBar {
+    display: flex;
+    align-items: center;
+    background-color: var(--white-primary);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .all__friendMobileSearchBar form {
+    flex: 1;
+  }
+
+  .all__friendMobileSearchBar form > input {
+    width: 100%;
+    border: none !important;
+    background-color: transparent;
+  }
+
+  .all__friendMobileSearchBar form > input:focus {
+    outline: none;
+    border: none;
+  }
+
+  .all__friendsMobileHeader > div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .all__friendsMobileHeader h4 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+
+  /* Sort all friends section starts */
+  .sort__allFriends {
+    cursor: pointer;
+  }
+
+  .sort__allFriends > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    color: var(--blue-primary);
+    font-size: 1.1rem;
+  }
+  /* Sort all friends section ends */
+
+  .all__friendMobileMoreSection {
+    width: 100% !important;
+  }
+
+  .all__friendMobileMoreSection > div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .all__friendMobileMoreSection:hover {
+    background-color: var(--white-primary);
+  }
+
+  .all__friendMobileBody {
+    display: flex;
+    align-items: center;
+  }
+
+  .all__friendMobileBody > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .all__friendMobileBody > div > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  /* Mobile friend request header section ends */
+}
+
+@media (min-height: 800px) {
+    .all__friendsContext {
+        height: 72%;
+    }
+}
+
+@media (min-height: 830px) {
+    .all__friendsContext {
+        height: 75%;
+    }
+}
+
+@media (min-height: 900px) {
+    .all__friendsContext {
+        height: 77%;
+    }
+}
+
+@media (min-height: 970px) {
+    .all__friendsContext {
+        height: 80%;
+    }
+}
+
+@media (min-height: 1100px) {
+    .all__friendsContext {
+        height: 82%;
+    }
+}
+
+@media (min-height: 1250px) {
+    .all__friendsContext {
+        height: 84%;
+    }
+}
+
+@media (min-height: 1390px) {
+    .all__friendsContext {
+        height: 86%;
+    }
+}
+
+@media (min-height: 1550px) {
+    .all__friendsContext {
+        height: 87%;
+    }
+}
+
+@media (min-height: 1700px) {
+    .all__friendsContext {
+        height: 88%;
+    }
+}
+
+@media (min-height: 1870px) {
+    .all__friendsContext {
+        height: 89%;
+    }
+}
+
+@media (min-height: 2050px) {
+    .all__friendsContext {
+        height: 90%;
+    }
+}
+
+@media (min-height: 2200px) {
+    .all__friendsContext {
+        height: 91%;
+    }
+}
+
+@media (min-height: 2500px) {
+    .all__friendsContext {
+        height: 92%;
+    }
+}
+
+@media (min-height: 2800px) {
+    .all__friendsContext {
+        height: 93%;
+    }
+}

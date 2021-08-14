@@ -1,0 +1,595 @@
+.friend__requestSection {
+  position: relative;
+}
+
+.friend__requestsMobileSection {
+  display: none;
+}
+
+/* Friend requests left section starts */
+.friend__requestsLeftSection {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 27%;
+  background-color: var(--white-primary);
+  height: 100%;
+}
+
+/* Friend requests header section starts */
+.friend__requestsHeader {
+  display: flex;
+  align-items: center;
+}
+
+.friend__smallLink:hover {
+  text-decoration: underline !important;
+}
+
+.friend__smallLink > small {
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+/* Friend requests header section ends */
+
+/* Friend requests border line section starts */
+.friend__requestsBorderLine {
+  width: 100%;
+  height: 1.3px;
+  background-color: var(--gray-border);
+  width: 95%;
+  margin: 0 auto;
+}
+/* Friend requests border line section ends */
+
+/* Friend requests context section starts */
+.friend__requestsContext {
+  position: relative;
+  height: 77%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.friend__requestsContext::-webkit-scrollbar {
+  width: 6px;
+}
+
+.friend__requestsContext::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 9999px;
+  outline: none;
+}
+
+.sent__friendRequests {
+  cursor: pointer;
+}
+
+.sent__friendRequests > small {
+  font-size: 0.8rem;
+}
+
+/* View all friend requests section starts */
+.view__friendRequets {
+  display: flex;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.view__friendRequets:hover {
+  cursor: pointer;
+  background-color: var(--bg-light);
+  border-radius: 0.3rem;
+}
+
+/* Friend requests person image section starts */
+.friend__requestsImg {
+  min-width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+
+.friend__requestsImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Friend requests person image section ends */
+
+/* Friend requests person body section starts */
+.friend__requestsBodyText {
+  width: 80%;
+  /* background: red; */
+}
+
+.friend__requestsPersonNameAndDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__requestsPersonNameAndDate > p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Friend request button section starts */
+.friend__requestsBtn {
+  display: flex;
+  align-items: center;
+}
+
+.friend__requestsBtn button {
+  flex: 0.5;
+  text-transform: none;
+}
+
+.friend__requestsBtn button:first-child {
+  margin-right: 0.5rem;
+  background-color: var(--blue-primary) !important;
+  color: var(--white-primary) !important;
+}
+/* Friend request button section ends */
+
+/* Friend requests person body section ends */
+
+/* View all friend requests section ends */
+
+/* Friend requests context section ends */
+
+/* Friend requests left section ends */
+
+/* Friend requests right section starts */
+.friend__requestsRightSection {
+  position: relative;
+  height: 90vh;
+  left: 65%;
+  transform: translateX(-65%);
+  width: 40%;
+}
+
+.friend__requestsRightContent {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friend__requestRightImg {
+  width: 7rem;
+  height: 7rem;
+}
+
+.friend__requestRightImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Friend requests right section ends */
+
+/* Responsive section */
+
+@media (min-height: 690px) {
+  .friend__requestsLeftSection {
+    top: 9.5%;
+  }
+
+  .friend__requestsContext {
+    height: 79%;
+  }
+}
+
+@media (min-height: 750px) {
+  .friend__requestsLeftSection {
+    top: 9%;
+  }
+
+  .friend__requestsContext {
+    height: 80%;
+  }
+}
+
+@media (min-height: 780px) {
+  .friend__requestsLeftSection {
+    top: 8.5%;
+  }
+
+  .friend__requestsContext {
+    height: 81%;
+  }
+}
+
+@media (min-height: 820px) {
+  .friend__requestsLeftSection {
+    top: 8%;
+  }
+
+  .friend__requestsContext {
+    height: 82%;
+  }
+}
+
+@media (min-height: 850px) {
+  .friend__requestsLeftSection {
+    top: 7.5%;
+  }
+
+  .friend__requestsContext {
+    height: 83%;
+  }
+}
+
+@media (min-height: 920px) {
+  .friend__requestsLeftSection {
+    top: 7%;
+  }
+
+  .friend__requestsContext {
+    height: 84%;
+  }
+}
+
+@media (min-height: 990px) {
+  .friend__requestsLeftSection {
+    top: 6.5%;
+  }
+
+  .friend__requestsContext {
+    height: 85%;
+  }
+}
+
+@media (min-height: 1070px) {
+  .friend__requestsLeftSection {
+    top: 6%;
+  }
+
+  .friend__requestsContext {
+    height: 86%;
+  }
+}
+
+@media (min-height: 1150px) {
+  .friend__requestsContext {
+    height: 87%;
+  }
+}
+
+@media (min-height: 1170px) {
+  .friend__requestsLeftSection {
+    top: 5.5%;
+  }
+}
+
+@media (min-height: 1200px) {
+  .friend__requestsContext {
+    height: 88%;
+  }
+}
+
+@media (min-height: 1270px) {
+  .friend__requestsLeftSection {
+    top: 5%;
+  }
+
+  .friend__requestsContext {
+    height: 89%;
+  }
+}
+
+@media (min-height: 1350px) {
+  .friend__requestsContext {
+    height: 89%;
+  }
+}
+
+@media (min-height: 1370px) {
+  .friend__requestsLeftSection {
+    top: 4.7%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .friend__requestsLeftSection {
+    top: 4.5%;
+  }
+
+  .friend__requestsContext {
+    height: 89.5%;
+  }
+}
+
+@media (min-height: 1430px) {
+  .friend__requestsContext {
+    height: 90%;
+  }
+}
+
+@media (min-height: 1530px) {
+  .friend__requestsLeftSection {
+    top: 4.3%;
+  }
+}
+
+@media (min-height: 1600px) {
+  .friend__requestsLeftSection {
+    top: 4%;
+  }
+
+  .friend__requestsContext {
+    height: 91%;
+  }
+}
+
+@media (min-height: 1700px) {
+  .friend__requestsLeftSection {
+    top: 3.8%;
+  }
+
+  .friend__requestsContext {
+    height: 92%;
+  }
+}
+
+@media (min-height: 1790px) {
+  .friend__requestsLeftSection {
+    top: 3.6%;
+  }
+}
+
+@media (min-height: 1890px) {
+  .friend__requestsLeftSection {
+    top: 3.4%;
+  }
+
+  .friend__requestsContext {
+    height: 93%;
+  }
+}
+
+@media (min-height: 1970px) {
+  .friend__requestsLeftSection {
+    top: 3.3%;
+  }
+}
+
+@media (min-height: 2000px) {
+  .friend__requestsLeftSection {
+    top: 3.2%;
+  }
+
+  .friend__requestsContext {
+    height: 93%;
+  }
+}
+
+@media (min-height: 2100px) {
+  .friend__requestsLeftSection {
+    top: 3%;
+  }
+
+  .friend__requestsContext {
+    height: 93.5%;
+  }
+}
+
+@media (min-height: 2300px) {
+  .friend__requestsLeftSection {
+    top: 2.7%;
+  }
+
+  .friend__requestsContext {
+    height: 94%;
+  }
+}
+
+@media (min-height: 2450px) {
+  .friend__requestsLeftSection {
+    top: 2.5%;
+  }
+  .friend__requestsContext {
+    height: 94.5%;
+  }
+}
+
+@media (min-height: 2700px) {
+  .friend__requestsContext {
+    height: 95%;
+  }
+}
+
+@media (min-height: 2800px) {
+  .friend__requestsLeftSection {
+    top: 2.3%;
+  }
+}
+
+@media (min-height: 3000px) {
+  .friend__requestsLeftSection {
+    top: 2.2%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .friend__requestsLeftSection {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1099px) {
+  .friend__requestSection {
+    display: none;
+  }
+
+  .friend__requestsMobileSection {
+    display: inherit;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Friends mobile top section starts */
+  .friends__mobileTopSection a {
+    padding: 10px;
+    border-radius: 9999px;
+    background-color: var(--white-primary);
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .friends__mobileTopSection a:hover {
+    background-color: var(--blue-primary);
+    color: var(--white-primary) !important;
+  }
+  /* Friends mobile top section ends */
+
+  .border__line {
+    margin-top: 1rem;
+    width: 99%;
+    height: 1.3px;
+    background-color: var(--white-primary);
+  }
+
+  /* Mobile friends request header section starts */
+  .mobile__friendRequestHeader {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile__friendRequestHeader h4 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  /* Mobile friends request header section ends */
+
+  /* Expand more section starts */
+  .friends__mobileExpandMoreIcon {
+    cursor: pointer;
+  }
+  /* Expand more section ends */
+
+  /* Mobile friend request body section starts */
+
+  .mobile__friendRequestBody {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile__friendContext {
+    width: 100%;
+  }
+
+  /* Mobile friend person image section starts */
+  .mobile__friendImg {
+    min-width: 7rem;
+    max-width: 7rem;
+    height: 7rem;
+    margin-right: 1rem;
+  }
+
+  .mobile__friendImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  /* Mobile friend person image section ends */
+
+  .mobile__friendContext > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0.3rem !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Mobile friend request context section starts */
+  .mobile__friendRequestBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile__friendRequestBtn button {
+    text-transform: none;
+    flex: 0.5;
+    margin-right: 0.5rem;
+  }
+
+  .mobile__friendRequestBtn button:first-child {
+    background-color: var(--blue-primary) !important;
+    color: var(--white-primary) !important;
+  }
+  /* Mobile friend request context section ends */
+
+  /* Mobile friend request see all button section starts */
+  .mobile__friendSeeMoreBtn {
+    display: flex;
+  }
+
+  .mobile__friendSeeMoreBtn > button {
+    text-transform: none;
+    flex: 1;
+  }
+  /* Mobile friend request see all button section ends */
+
+  @media (max-width: 400px) {
+    .mobile__friendImg {
+      min-width: 5rem;
+      max-width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .mobile__friendImg {
+      min-width: 4rem;
+      max-width: 4rem;
+      height: 4rem;
+    }
+
+    .mobile__friendContext > p {
+      font-size: 0.9rem;
+    }
+
+    .mobile__friendRequestBtn button {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 323px) {
+    .mobile__friendImg {
+      min-width: 3.5rem;
+      max-width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .mobile__friendContext > p {
+      font-size: 0.7rem;
+    }
+
+    .mobile__friendRequestBtn button {
+      font-size: 0.7rem;
+    }
+  }
+
+  @media (max-width: 282px) {
+    .mobile__friendImg {
+      min-width: 3rem;
+      max-width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  /* Mobile friend request body section starts */
+
+  /* Friends mobile/tab section ends */
+}

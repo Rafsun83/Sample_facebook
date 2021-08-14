@@ -8,11 +8,11 @@ import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
 import InsertChartOutlinedRoundedIcon from "@material-ui/icons/InsertChartOutlinedRounded";
 
 // Imported files
-import "../css/HeaderDropItems.css";
-import profileImg from "../images/profile.jpg";
+import "../../css/Header/HeaderDropItems.css";
+import profileImg from "../../images/profile.jpg";
 
 // Imported context files
-import {DropItemsContext} from "../ContextData/DropItemsContext";
+import {DropItemsContext} from "../../ContextData/DropItemsContext";
 
 const HeaderDropItems = () => {
   const {showDropItems, setShowDropItems} = useContext(DropItemsContext);
@@ -53,7 +53,7 @@ const HeaderDropItems = () => {
           </div>
         </Link>
 
-        <Link className="drop__items">
+        <Link to="/friends" className="drop__items" onClick={() => setShowDropItems(!showDropItems)}>
           <div className="home__leftIcon">
             <span
               className="iconify"

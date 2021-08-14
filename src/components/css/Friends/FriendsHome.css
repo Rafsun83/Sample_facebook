@@ -1,0 +1,488 @@
+.friends__home {
+  position: relative;
+}
+
+.friends__mobileSection {
+  display: none;
+}
+
+/* Friends left section starts */
+
+.friends__leftSection {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  z-index: 2;
+  background-color: var(--white-primary);
+}
+
+/* Friends left header section starts */
+.friends__leftSectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends__leftSectionHeader h4 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+/* Friends left header section ends */
+
+/* Friends left bottom section starts */
+.friends__bottomSectionStarts a > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 6px;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.friends__bottomSectionStarts a:hover > div {
+  background-color: var(--bg-light);
+}
+
+.friend__requestsLink > .iconify {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+}
+
+.friend__requestsLink {
+  display: flex;
+  align-items: center;
+}
+/* Friends left bottom section ends */
+
+/* Friends left section ends */
+
+/* Friends right section starts */
+
+.friends__rightSection {
+  padding-left: 0.5rem;
+  position: relative;
+  left: 26%;
+  width: 73%;
+}
+
+/* Friend right header section starts */
+.friend__rightHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.friends__seeAll {
+  font-weight: 500;
+}
+
+.friends__seeAll:hover {
+  text-decoration: underline !important;
+}
+
+.friend__rightHeader > h5 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+/* Friend right header section ends */
+
+/* Friend right bottom section starts */
+.friend__rightBottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Friend request card section starts */
+.friends__rightSection .card {
+  width: 14.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Friend request person image section starts */
+.friend__image {
+  width: 100%;
+  height: 15rem;
+}
+
+.friend__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+/* Friend request person image section ends */
+
+/* Friend request context and button section starts */
+.friend__context > p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  transition: color 0.2s ease-in-out;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.friend__context > p:hover {
+  color: var(--blue-primary);
+}
+
+.friend__actionBtn button {
+  width: 100%;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.friend__actionBtn button:first-child {
+  background-color: var(--blue-primary) !important;
+  color: var(--white-primary) !important;
+}
+/* Friend request context and button section ends */
+/* Friend request card section ends */
+
+/* Friend right bottom section ends */
+
+/* Friends right section see all button section starts */
+.friends__seeMoreBtn {
+  display: flex;
+  margin-right: 0.4rem;
+}
+
+.friends__seeMoreBtn > button {
+  text-transform: none;
+  flex: 1;
+}
+/* Friends right section see all button section ends */
+
+/* Friends right section ends */
+
+@media (max-width: 991px) {
+  .friends__desktopVersion {
+    display: none;
+  }
+
+  /* Friends mobile/tab section starts */
+
+  .friends__mobileSection {
+    display: inherit;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Friends mobile top section starts */
+  .friends__mobileTopSection a {
+    padding: 10px;
+    border-radius: 9999px;
+    background-color: var(--white-primary);
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .friends__mobileTopSection a:hover {
+    background-color: var(--blue-primary);
+    color: var(--white-primary) !important;
+  }
+  /* Friends mobile top section ends */
+
+  .border__line {
+    margin-top: 1rem;
+    width: 99%;
+    height: 1.3px;
+    background-color: var(--white-primary);
+  }
+
+  /* Mobile friends request header section starts */
+  .mobile__friendRequestHeader {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile__friendRequestHeader h4 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  /* Mobile friends request header section ends */
+
+  /* Expand more section starts */
+  .friends__mobileExpandMoreIcon {
+    cursor: pointer;
+  }
+  /* Expand more section ends */
+
+  /* Mobile friend request body section starts */
+
+  .mobile__friendRequestBody {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile__friendContext {
+    width: 100%;
+  }
+
+  /* Mobile friend person image section starts */
+  .mobile__friendImg {
+    min-width: 7rem;
+    max-width: 7rem;
+    height: 7rem;
+    margin-right: 1rem;
+  }
+
+  .mobile__friendImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  /* Mobile friend person image section ends */
+
+  .mobile__friendContext > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0.3rem !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Mobile friend request context section starts */
+  .mobile__friendRequestBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile__friendRequestBtn button {
+    text-transform: none;
+    flex: 0.5;
+    margin-right: 0.5rem;
+  }
+
+  .mobile__friendRequestBtn button:first-child {
+    background-color: var(--blue-primary) !important;
+    color: var(--white-primary) !important;
+  }
+  /* Mobile friend request context section ends */
+
+  /* Mobile friend request see all button section starts */
+  .mobile__friendSeeMoreBtn {
+    display: flex;
+  }
+
+  .mobile__friendSeeMoreBtn > button {
+    text-transform: none;
+    flex: 1;
+  }
+  /* Mobile friend request see all button section ends */
+
+  /* Mobile friend request body section starts */
+
+  /* Friends mobile/tab section ends */
+}
+
+/* Reponsive section */
+@media (min-height: 690px) {
+  .friends__leftSection {
+    top: 9.5%;
+  }
+}
+
+@media (min-height: 750px) {
+  .friends__leftSection {
+    top: 9%;
+  }
+}
+
+@media (min-height: 780px) {
+  .friends__leftSection {
+    top: 8.5%;
+  }
+}
+
+@media (min-height: 820px) {
+  .friends__leftSection {
+    top: 8%;
+  }
+}
+
+@media (min-height: 850px) {
+  .friends__leftSection {
+    top: 7.5%;
+  }
+}
+
+@media (min-height: 920px) {
+  .friends__leftSection {
+    top: 7%;
+  }
+}
+
+@media (min-height: 990px) {
+  .friends__leftSection {
+    top: 6.5%;
+  }
+}
+
+@media (min-height: 1070px) {
+  .friends__leftSection {
+    top: 6%;
+  }
+}
+
+@media (min-height: 1170px) {
+  .friends__leftSection {
+    top: 5.5%;
+  }
+}
+
+@media (min-height: 1270px) {
+  .friends__leftSection {
+    top: 5%;
+  }
+}
+
+@media (min-height: 1370px) {
+  .friends__leftSection {
+    top: 4.7%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .friends__leftSection {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1390px) {
+  .friends__leftSection {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1530px) {
+  .friends__leftSection {
+    top: 4.3%;
+  }
+}
+
+@media (min-height: 1600px) {
+  .friends__leftSection {
+    top: 4%;
+  }
+}
+
+@media (min-height: 1700px) {
+  .friends__leftSection {
+    top: 3.8%;
+  }
+}
+
+@media (min-height: 1790px) {
+  .friends__leftSection {
+    top: 3.6%;
+  }
+}
+
+@media (min-height: 1890px) {
+  .friends__leftSection {
+    top: 3.4%;
+  }
+}
+
+@media (min-height: 1970px) {
+  .friends__leftSection {
+    top: 3.3%;
+  }
+}
+
+@media (min-height: 2000px) {
+  .friends__leftSection {
+    top: 3.2%;
+  }
+}
+
+@media (min-height: 2100px) {
+  .friends__leftSection {
+    top: 3%;
+  }
+}
+
+@media (min-height: 2300px) {
+  .friends__leftSection {
+    top: 2.7%;
+  }
+}
+
+@media (min-height: 2450px) {
+  .friends__leftSection {
+    top: 2.5%;
+  }
+}
+
+@media (min-height: 2800px) {
+  .friends__leftSection {
+    top: 2.3%;
+  }
+}
+
+@media (min-height: 3000px) {
+  .friends__leftSection {
+    top: 2.2%;
+  }
+}
+
+@media (max-width: 400px) {
+  .mobile__friendImg {
+    min-width: 5rem;
+    max-width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .mobile__friendImg {
+    min-width: 4rem;
+    max-width: 4rem;
+    height: 4rem;
+  }
+
+  .mobile__friendContext > p {
+    font-size: 0.9rem;
+  }
+
+  .mobile__friendRequestBtn button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 323px) {
+  .mobile__friendImg {
+    min-width: 3.5rem;
+    max-width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .mobile__friendContext > p {
+    font-size: 0.7rem;
+  }
+
+  .mobile__friendRequestBtn button {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 282px) {
+  .mobile__friendImg {
+    min-width: 3rem;
+    max-width: 3rem;
+    height: 3rem;
+  }
+}

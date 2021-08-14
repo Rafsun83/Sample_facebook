@@ -8,8 +8,8 @@ import VideoCallOutlinedIcon from "@material-ui/icons/VideoCallOutlined";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
 // Imported files
-import "../css/HomeRightContent.css";
-import postImg from "../images/Post 1.jpg";
+import "../../css/Home/HomeRightContent.css";
+import postImg from "../../images/Post 1.jpg";
 
 const HomeRightContent = () => {
   return (

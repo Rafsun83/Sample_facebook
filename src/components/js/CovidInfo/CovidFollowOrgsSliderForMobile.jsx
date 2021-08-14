@@ -8,8 +8,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Imported files
-import virusImg from "../images/virus.png";
-import "../css/CovidFollowOrgsSliderForMobile.css";
+import virusImg from "../../images/virus.png";
+import "../../css/CovidInfo/CovidFollowOrgsSliderForMobile.css";
 
 const CovidFollowOrgsSliderForMobile = () => {
   const SampleNextArrow = (props) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Imported files
-import "../css/Home.css";
+import "../../css/Home/Home.css";
 import HomeLeftContent from "./HomeLeftContent";
 import HomeMiddleContent from "./HomeMiddleContent";
 import HomeRightContent from "./HomeRightContent";

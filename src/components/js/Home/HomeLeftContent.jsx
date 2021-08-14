@@ -8,8 +8,8 @@ import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
 import InsertChartOutlinedRoundedIcon from "@material-ui/icons/InsertChartOutlinedRounded";
 
 // Imported files
-import profileImg from "../images/profile.jpg";
-import "../css/HomeLeftContent.css";
+import profileImg from "../../images/profile.jpg";
+import "../../css/Home/HomeLeftContent.css";
 
 const HomeLeftContent = () => {
   return (
@@ -46,7 +46,7 @@ const HomeLeftContent = () => {
         {/* Covid center section ends */}
 
         {/* Friends section starts */}
-        <Link className="home__leftLinks">
+        <Link to="/friends" className="home__leftLinks">
           <div className="home__leftContent">
             <div className="home__leftIcon">
               <span

@@ -8,8 +8,8 @@ import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutlined";
 
 // Imported files
-import profileImg from "../images/Post 1.jpg";
-import preventImg from "../images/prevention.png";
+import profileImg from "../../images/Post 1.jpg";
+import preventImg from "../../images/prevention.png";
 
 const CovidInfoPosts = () => {
   const [postText, setPostText] = useState("");

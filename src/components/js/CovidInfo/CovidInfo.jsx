@@ -9,14 +9,14 @@ import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 
 // Imported files
-import "../css/CovidInfo.css";
+import "../../css/CovidInfo/CovidInfo.css";
 import "./CovidInfoSlider";
 import CovidInfoSlider from "./CovidInfoSlider";
 import CovidPreventionTipSlider from "./CovidPreventionTipSlider";
-import boardImg from "../images/board.png";
-import womanImg from "../images/woman.png";
-import virusImg from "../images/virus.png";
-import preventImg from "../images/prevention.png";
+import boardImg from "../../images/board.png";
+import womanImg from "../../images/woman.png";
+import virusImg from "../../images/virus.png";
+import preventImg from "../../images/prevention.png";
 import CovidInfoPosts from "./CovidInfoPosts";
 import CovidFollowOrgsSliderForMobile from "./CovidFollowOrgsSliderForMobile";
 

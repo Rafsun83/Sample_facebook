@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Button from '@material-ui/core/Button';
 import InputEmoji from "react-input-emoji";
 
@@ -11,8 +11,8 @@ import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutline
 import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 
 // Imported files
-import "../css/HomeMiddleContent.css";
-import profileImg from "../images/Post 1.jpg";
+import "../../css/Home/HomeMiddleContent.css";
+import profileImg from "../../images/Post 1.jpg";
 
 
 const HomeMiddleContent = () => {
@@ -24,6 +24,14 @@ const HomeMiddleContent = () => {
         
         console.log(postText);
     }
+
+    // useEffect(() => {
+    //     if (postText.length > 0) {
+    //         document.querySelector(".react-input-emoji--placeholder").style.visibility = "hidden";
+    //     } else {
+    //         document.querySelector(".react-input-emoji--placeholder").style.visibility = "visible";
+    //     }
+    // }, [postText])
 
     return (
         <div className="home__middle">

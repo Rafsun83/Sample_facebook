@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Imported files
-import "../css/CovidPreventionTipSlider.css";
-import preventImg from "../images/prevention.png";
+import "../../css/CovidInfo/CovidPreventionTipSlider.css";
+import preventImg from "../../images/prevention.png";
 
 const CovidPreventionTipSlider = () => {
   const SampleNextArrow = (props) => {
