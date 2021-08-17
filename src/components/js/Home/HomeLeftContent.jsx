@@ -76,7 +76,7 @@ const HomeLeftContent = () => {
         {/* Watch section ends */}
 
         {/* Groups section starts */}
-        <Link className="home__leftLinks">
+        <Link to="/groups/feed/" className="home__leftLinks">
           <div className="home__leftContent">
             <div className="group__icon">
               <PeopleAltOutlinedIcon />

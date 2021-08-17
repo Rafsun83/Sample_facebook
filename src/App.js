@@ -10,6 +10,8 @@ import FriendsHome from "./components/js/Friends/FriendsHome";
 import FriendRequests from "./components/js/Friends/FriendRequests";
 import FriendSuggestion from "./components/js/Friends/FriendSuggestion";
 import AllFriends from "./components/js/Friends/AllFriends";
+import GroupFeed from "./components/js/Groups/GroupFeed";
+import GroupDiscover from "./components/js/Groups/GroupDiscover";
 
 // Imported context files
 import { DropItemsContext } from "./components/ContextData/DropItemsContext";
@@ -57,6 +59,24 @@ function App() {
             <AllFriends />
           </Route>
           {/* All friends page section ends */}
+
+          {/* Group feed page section starts */}
+          <Route path="/groups/feed/" exact>
+            <GroupFeed />
+          </Route>
+          {/* Group feed page section ends */}
+
+          {/* Group feed page section starts */}
+          <Route path="/groups/discover/" exact>
+            <GroupDiscover />
+          </Route>
+          {/* Group feed page section ends */}
+
+          {/* Group discover page section starts */}
+          <Route path="/groups/discover/" exact>
+            <GroupDiscover />
+          </Route>
+          {/* Group discover page section ends */}
         </DropItemsContext.Provider>
       </Switch>
     </div>

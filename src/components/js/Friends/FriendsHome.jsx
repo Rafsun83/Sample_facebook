@@ -256,7 +256,9 @@ const FriendsHome = () => {
 
           {/* Friends right section see all button section starts */}
           <div className="friends__seeMoreBtn my-3">
-            <Button className="fw-bold" variant="contained">See More <ExpandMoreIcon /> </Button>
+            <Button className="fw-bold" variant="contained">
+              See More <ExpandMoreIcon />{" "}
+            </Button>
           </div>
           {/* Friends right section see all button section ends */}
 
@@ -425,8 +427,12 @@ const FriendsHome = () => {
       <div className="friends__mobileSection">
         {/* Friends mobile top section starts */}
         <div className="friends__mobileTopSection mt-3">
-          <Link to="/friends/suggestions/" className="fw-bold">Suggestions</Link>
-          <Link to="/friends/list/" className="fw-bold">All Friends</Link>
+          <Link to="/friends/suggestions/" className="fw-bold">
+            Suggestions
+          </Link>
+          <Link to="/friends/list/" className="fw-bold">
+            All Friends
+          </Link>
         </div>
         {/* Friends mobile top section ends */}
 
@@ -460,10 +466,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Confirm</Button>
-                <Button variant="contained" className="fw-bold">Delete</Button>
+                <Button variant="contained" className="fw-bold">
+                  Confirm
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Delete
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}
@@ -482,10 +494,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Confirm</Button>
-                <Button variant="contained" className="fw-bold">Delete</Button>
+                <Button variant="contained" className="fw-bold">
+                  Confirm
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Delete
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}
@@ -502,10 +520,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Confirm</Button>
-                <Button variant="contained" className="fw-bold">Delete</Button>
+                <Button variant="contained" className="fw-bold">
+                  Confirm
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Delete
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}
@@ -513,16 +537,16 @@ const FriendsHome = () => {
 
           {/* Mobile friend request see all button section starts */}
           <div className="mobile__friendSeeMoreBtn my-3">
-            <Button variant="contained" className="fw-bold">See All</Button>
+            <Button variant="contained" className="fw-bold">
+              See All
+            </Button>
           </div>
           {/* Mobile friend request see all button section ends */}
 
           {/* Mobile friend people you may know section starts */}
           <div className="mobile__friendRequestHeader">
             <div>
-              <h4 className="fw-bold">
-                People You May Know
-              </h4>
+              <h4 className="fw-bold">People You May Know</h4>
             </div>
           </div>
           {/* mobile friend request header section ends */}
@@ -539,10 +563,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Add Friend</Button>
-                <Button variant="contained" className="fw-bold">Remove</Button>
+                <Button variant="contained" className="fw-bold">
+                  Add Friend
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Remove
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}
@@ -561,10 +591,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Add Friend</Button>
-                <Button variant="contained" className="fw-bold">Remove</Button>
+                <Button variant="contained" className="fw-bold">
+                  Add Friend
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Remove
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}
@@ -581,10 +617,16 @@ const FriendsHome = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
-                <Button variant="contained" className="fw-bold">Add Friend</Button>
-                <Button variant="contained" className="fw-bold">Remove</Button>
+                <Button variant="contained" className="fw-bold">
+                  Add Friend
+                </Button>
+                <Button variant="contained" className="fw-bold">
+                  Remove
+                </Button>
               </div>
             </div>
             {/* Mobile friend request context section ends */}

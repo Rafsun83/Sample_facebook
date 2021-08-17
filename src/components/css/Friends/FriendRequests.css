@@ -503,7 +503,7 @@
   }
   /* Mobile friend person image section ends */
 
-  .mobile__friendContext > p {
+  .mobile__friendContext > a > p {
     margin-block-start: 0 !important;
     margin-block-end: 0.3rem !important;
     text-overflow: ellipsis;

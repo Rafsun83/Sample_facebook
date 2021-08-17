@@ -419,9 +419,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -449,9 +447,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -479,9 +475,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -509,9 +503,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -539,9 +531,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -569,9 +559,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -599,9 +587,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -629,9 +615,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -659,9 +643,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -689,9 +671,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -719,9 +699,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -749,9 +727,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -779,9 +755,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -809,9 +783,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -839,9 +811,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -869,9 +839,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -899,9 +867,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -929,9 +895,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -959,9 +923,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      Rabbith Alam Arko
-                    </p>
+                    <p className="fw-bold">Rabbith Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -989,9 +951,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">
-                      aegeaeafef Alam Arko
-                    </p>
+                    <p className="fw-bold">aegeaeafef Alam Arko</p>
                     <small>1w</small>
                   </Link>
 
@@ -1035,8 +995,12 @@ const FriendRequests = () => {
       <div className="friend__requestsMobileSection">
         {/* Friends mobile top section starts */}
         <div className="friends__mobileTopSection mt-3">
-          <Link to="/friends/suggestions" className="fw-bold">Suggestions</Link>
-          <Link to="/friends/" className="fw-bold">Friends</Link>
+          <Link to="/friends/suggestions" className="fw-bold">
+            Suggestions
+          </Link>
+          <Link to="/friends/" className="fw-bold">
+            Friends
+          </Link>
         </div>
         {/* Friends mobile top section ends */}
 
@@ -1070,7 +1034,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1096,7 +1062,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1120,7 +1088,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1144,7 +1114,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1168,7 +1140,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1192,7 +1166,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1216,7 +1192,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm
@@ -1240,7 +1218,9 @@ const FriendRequests = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Confirm

@@ -116,7 +116,7 @@ const Header = () => {
         </div>
         <div className="header__icons">
           <Tooltip title="Groups">
-            <Link className="icon__link">
+            <Link to="" className="icon__link">
               <PeopleAltOutlinedIcon className="header__icon" />
             </Link>
           </Tooltip>

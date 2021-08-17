@@ -75,7 +75,7 @@ const HeaderDropItems = () => {
           </div>
         </Link>
 
-        <Link className="drop__items">
+        <Link to="/groups/feed/" className="drop__items" onClick={() => {setShowDropItems(!showDropItems)}}>
           <div className="home__leftIcon">
             <PeopleAltOutlinedIcon />
           </div>

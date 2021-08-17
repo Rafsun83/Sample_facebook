@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 
 // Icons
@@ -10,7 +10,6 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import "../../css/Friends/FriendRequests.css";
 import personImg from "../../images/profile.jpg";
 import friendImg from "../../images/friend.png";
-
 
 const FriendSuggestion = () => {
   return (
@@ -466,7 +465,9 @@ const FriendSuggestion = () => {
       <div className="friend__requestsMobileSection">
         {/* Friends mobile top section starts */}
         <div className="friends__mobileTopSection mt-3">
-          <Link to="/friends/" className="fw-bold">Friends</Link>
+          <Link to="/friends/" className="fw-bold">
+            Friends
+          </Link>
         </div>
         {/* Friends mobile top section ends */}
 
@@ -500,7 +501,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -526,7 +529,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -550,7 +555,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -574,7 +581,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -598,7 +607,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -622,7 +633,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -646,7 +659,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend
@@ -670,7 +685,9 @@ const FriendSuggestion = () => {
 
             {/* Mobile friend request context section starts */}
             <div className="mobile__friendContext">
-              <p className="fw-bold">Abdullah Al Azim</p>
+              <Link>
+                <p className="fw-bold">Abdullah Al Azim</p>
+              </Link>
               <div className="mobile__friendRequestBtn">
                 <Button variant="contained" className="fw-bold">
                   Add Friend

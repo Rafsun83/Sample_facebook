@@ -1,0 +1,76 @@
+.group__leftSidebar .friend__requestsLeftSection {
+    width: 23%;
+}
+
+.group__leftSidebar .group__leftSidebarHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group__headerLinks a {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.group__headerLinks a:hover {
+    background-color: var(--bg-light);
+}
+
+.group__headerLinks a:last-child:hover {
+    background-color: transparent;
+    display: flex;
+}
+
+.group__headerLinks a:last-child > button {
+    flex: 1;
+    background-color: var(--blue-primary) !important;
+    color: var(--white-primary) !important;
+    text-transform: none;
+}
+
+.group__headerLinks a p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+/* Group left sidebar bottom part section starts */
+.group__infoContainer > a {
+    display: flex;
+    align-items: center;
+}
+
+/* Group image section starts */
+.group__image {
+    min-width: 5rem;
+    max-width: 5rem;
+    height: 5rem;
+}
+
+.group__image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+/* Group image section ends */
+
+/* Group title context section starts */
+.group__titleContext {
+    margin-left: 0.7rem;
+    width: 100%;
+}
+
+.group__titleContext > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* Group title context section ends */
+
+/* Group left sidebar bottom part section ends */
