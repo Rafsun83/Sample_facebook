@@ -4,7 +4,8 @@
 
 /* Home middle profile image section starts */
 .homemiddle__profileImg {
-  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
   height: 3rem;
   margin-right: 0.5rem;
 }
@@ -76,6 +77,10 @@
 }
 
 /* Profile name section starts */
+.middle__profileName > p > a:hover {
+  text-decoration: underline !important;
+}
+
 .middle__profileName p:first-child {
   margin-bottom: 0;
   font-weight: bold;
@@ -105,7 +110,6 @@
 .middle__postImg {
   width: 100%;
   height: 100%;
-  max-height: 26.875rem;
 }
 
 .middle__postImg img {
@@ -144,7 +148,8 @@
 }
 
 .middle__writeComment .homemiddle__profileImg {
-  width: 2rem;
+  min-width: 2rem;
+  max-width: 2rem;
   height: 2rem;
 }
 

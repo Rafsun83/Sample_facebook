@@ -45,7 +45,8 @@
 /* Friend requests context section starts */
 .friend__requestsContext {
   position: relative;
-  height: 77%;
+  /* height: 77%; */
+  max-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -163,7 +164,8 @@
 }
 
 .friend__requestRightImg {
-  width: 7rem;
+  min-width: 7rem;
+  max-width: 7rem;
   height: 7rem;
 }
 
@@ -180,19 +182,11 @@
   .friend__requestsLeftSection {
     top: 9.5%;
   }
-
-  .friend__requestsContext {
-    height: 79%;
-  }
 }
 
 @media (min-height: 750px) {
   .friend__requestsLeftSection {
     top: 9%;
-  }
-
-  .friend__requestsContext {
-    height: 80%;
   }
 }
 
@@ -200,19 +194,11 @@
   .friend__requestsLeftSection {
     top: 8.5%;
   }
-
-  .friend__requestsContext {
-    height: 81%;
-  }
 }
 
 @media (min-height: 820px) {
   .friend__requestsLeftSection {
     top: 8%;
-  }
-
-  .friend__requestsContext {
-    height: 82%;
   }
 }
 
@@ -220,19 +206,11 @@
   .friend__requestsLeftSection {
     top: 7.5%;
   }
-
-  .friend__requestsContext {
-    height: 83%;
-  }
 }
 
 @media (min-height: 920px) {
   .friend__requestsLeftSection {
     top: 7%;
-  }
-
-  .friend__requestsContext {
-    height: 84%;
   }
 }
 
@@ -240,19 +218,11 @@
   .friend__requestsLeftSection {
     top: 6.5%;
   }
-
-  .friend__requestsContext {
-    height: 85%;
-  }
 }
 
 @media (min-height: 1070px) {
   .friend__requestsLeftSection {
     top: 6%;
-  }
-
-  .friend__requestsContext {
-    height: 86%;
   }
 }
 
@@ -268,25 +238,9 @@
   }
 }
 
-@media (min-height: 1200px) {
-  .friend__requestsContext {
-    height: 88%;
-  }
-}
-
 @media (min-height: 1270px) {
   .friend__requestsLeftSection {
     top: 5%;
-  }
-
-  .friend__requestsContext {
-    height: 89%;
-  }
-}
-
-@media (min-height: 1350px) {
-  .friend__requestsContext {
-    height: 89%;
   }
 }
 
@@ -300,16 +254,6 @@
   .friend__requestsLeftSection {
     top: 4.5%;
   }
-
-  .friend__requestsContext {
-    height: 89.5%;
-  }
-}
-
-@media (min-height: 1430px) {
-  .friend__requestsContext {
-    height: 90%;
-  }
 }
 
 @media (min-height: 1530px) {
@@ -322,19 +266,11 @@
   .friend__requestsLeftSection {
     top: 4%;
   }
-
-  .friend__requestsContext {
-    height: 91%;
-  }
 }
 
 @media (min-height: 1700px) {
   .friend__requestsLeftSection {
     top: 3.8%;
-  }
-
-  .friend__requestsContext {
-    height: 92%;
   }
 }
 
@@ -348,10 +284,6 @@
   .friend__requestsLeftSection {
     top: 3.4%;
   }
-
-  .friend__requestsContext {
-    height: 93%;
-  }
 }
 
 @media (min-height: 1970px) {
@@ -364,19 +296,11 @@
   .friend__requestsLeftSection {
     top: 3.2%;
   }
-
-  .friend__requestsContext {
-    height: 93%;
-  }
 }
 
 @media (min-height: 2100px) {
   .friend__requestsLeftSection {
     top: 3%;
-  }
-
-  .friend__requestsContext {
-    height: 93.5%;
   }
 }
 
@@ -384,24 +308,11 @@
   .friend__requestsLeftSection {
     top: 2.7%;
   }
-
-  .friend__requestsContext {
-    height: 94%;
-  }
 }
 
 @media (min-height: 2450px) {
   .friend__requestsLeftSection {
     top: 2.5%;
-  }
-  .friend__requestsContext {
-    height: 94.5%;
-  }
-}
-
-@media (min-height: 2700px) {
-  .friend__requestsContext {
-    height: 95%;
   }
 }
 

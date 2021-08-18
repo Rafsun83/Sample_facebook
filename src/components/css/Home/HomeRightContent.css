@@ -1,5 +1,4 @@
 .home__right {
-  /* background: red; */
   padding-right: 0.9rem;
   position: fixed;
   width: 20%;
@@ -54,7 +53,8 @@
 }
 
 .pages__image img {
-  width: 2rem;
+  min-width: 2rem;
+  max-width: 2rem;
   height: 2rem;
   border-radius: 50%;
   object-fit: cover;

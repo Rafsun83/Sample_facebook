@@ -1,0 +1,113 @@
+.group__rightSectionContent {
+    position: absolute;
+    left: 25%;
+    width: 75%;
+    /* display: grid;
+    grid-template-columns: 65% 35%; */
+    display: flex;
+    justify-content: center;
+}
+
+.group__rightSection {
+    /* position: absolute;
+    left: 20%; */
+    /* background: red; */
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.group__rightPostSection {
+    margin-right: 1.5rem;
+}
+
+/* Group right post card content section starts */
+.group__rightAllPosts .card {
+    width: 35rem;
+    height: auto;
+}
+
+/* Group post top section starts */
+.group__postInfo {
+    display: flex;
+    align-items: center;
+}
+/* Group post image section starts */
+.group__postGroupName .group__postTitle:hover,
+.group__postGroupName .group__postUsername:hover {
+    text-decoration: underline !important;
+}
+
+.group__postImg {
+    min-width: 3rem;
+    max-width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.group__postImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Group post image section ends */
+
+.group__postGroupName > p {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.group__postGroupName small {
+    font-size: 0.82rem;
+    font-weight: 500;
+}
+
+.group__postDot {
+    font-size: 0.2rem;
+}
+
+.group__peopleIcon {
+    width: 1.2rem !important;
+}
+/* Group post top section ends */
+
+/* Group feed suggestion section starts */
+/* .group__rightSuggestedSection {
+    position: sticky;
+    top: 0;
+} */
+
+.group__rightSuggestedSection > .card {
+    width: 24rem;
+    height: auto;
+}
+
+/* Group feed suggestion top header section starts */
+.group__suggestionTopSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group__suggestionTopSection > h6 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.group__suggestionTopSection > a > button {
+    text-transform: none;
+    color: var(--blue-primary) !important;
+}
+
+.group__rightSuggestedSection > .card > small {
+    font-weight: 500;
+}
+/* Group feed suggestion top header section ends */
+
+
+/* Group feed suggestion section ends */
+
+/* Group right post card content section ends */

@@ -1,6 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import InputEmoji from "react-input-emoji";
 import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 // Icons
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
@@ -25,12 +26,13 @@ const CovidInfoPosts = () => {
       <div className="card py-3 mb-3">
         {/* Profile Image and name section starts */}
         <div className="homemiddle__otherPostSection">
-          <div className="homemiddle__profileImg">
+          <Link className="homemiddle__profileImg">
             <img src={profileImg} alt="" />
-          </div>
+          </Link>
           <div className="middle__profileName">
             <p>
-              Wasek Samin <span className="text-muted">posted an update</span>
+              <Link>Wasek Samin</Link>{" "}
+              <span className="text-muted">posted an update</span>
             </p>
             <p className="text-muted middle__postTime">2 hours ago</p>
           </div>

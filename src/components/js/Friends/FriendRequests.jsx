@@ -951,7 +951,7 @@ const FriendRequests = () => {
                 {/* Friend requests person body section starts */}
                 <div className="friend__requestsBodyText">
                   <Link className="friend__requestsPersonNameAndDate">
-                    <p className="fw-bold">aegeaeafef Alam Arko</p>
+                    <p className="fw-bold">hello Alam Arko</p>
                     <small>1w</small>
                   </Link>
 

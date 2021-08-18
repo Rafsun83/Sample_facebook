@@ -95,7 +95,7 @@ const Header = () => {
       <div className="header__links header__middleSection">
         <div className="header__icons">
           <Tooltip title="Home">
-            <Link className="icon__link">
+            <Link to="/" className="icon__link">
               <HomeOutlinedIcon className="header__icon" />
             </Link>
           </Tooltip>

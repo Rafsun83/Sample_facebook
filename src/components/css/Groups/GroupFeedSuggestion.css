@@ -1,0 +1,45 @@
+/* Group feed suggestion slider section starts */
+.group__feedSuggestionSliderCard .slick-slide {
+    margin: 0 !important;
+}
+/* Group feed suggestion slider section ends */
+
+/* Group feed suggestion slider image section starts */
+.group__suggestionImg {
+    width: 100%;
+    height: 12rem;
+}
+
+.group__suggestionImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Group feed suggestion slider image section ends */
+
+/* Group feed suggestion context section starts */
+.group__suggestionContext > a:hover {
+    text-decoration: underline !important;
+}
+
+.group__suggestionContext > a > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+/* Group feed suggestion join button section starts */
+.group__suggestedJoinBtn {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.group__suggestedJoinBtn > button {
+    background-color: var(--blue-primary) !important;
+    color: var(--white-primary) !important;
+    flex: 1;
+}
+/* Group feed suggestion join button section ends */
+/* Group feed suggestion context section ends */

@@ -3,20 +3,7 @@
   position: fixed;
   top: 10%;
   bottom: 0;
-  /* overflow-x: hidden;
-  overflow-y: auto; */
 }
-
-/* .home__left::-webkit-scrollbar {
-  width: 6px;
-}
-
-.home__left::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-  border-radius: 9999px;
-  outline: none;
-} */
 
 .home__leftContent {
   display: flex;
@@ -33,7 +20,8 @@
 
 /* Profile section starts */
 .profile__leftImg {
-  width: 2rem;
+  min-width: 2rem;
+  max-width: 2rem;
   height: 2rem;
 }
 
