@@ -44,9 +44,9 @@ const CovidInfoPosts = () => {
         </div>
         {/* Post text section ends */}
         {/* Post image section starts */}
-        <div className="middle__postImg">
+        <Link className="middle__postImg">
           <img src={preventImg} alt="" />
-        </div>
+        </Link>
         {/* Post image section ends */}
         {/* Post like, comment, share section starts */}
         <div className="middle__alternativeOption mt-3">

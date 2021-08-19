@@ -81,7 +81,7 @@ const CovidPreventionTipSlider = () => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="covid__infoSlider">
       <div className="card covid__preventionSliderCard">
         <div className="covid__preventionImg">
           <img src={preventImg} alt="" />

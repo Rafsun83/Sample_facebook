@@ -1,0 +1,123 @@
+/* Group feed mobile header section starts */
+
+.group__feedMobileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group__feedMobileHeader > h5 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+/* Group feed mobile header right section starts */
+.group__feedMobileHeaderRightSection {
+  display: flex;
+  align-items: center;
+}
+
+/* Group feed mobile search bar section starts */
+.group__feedMobileSearchBar {
+  position: relative;
+}
+
+.group__feedMobileSearchButton > button::after {
+  display: none;
+}
+
+/* Group feed mobile search bar input section starts */
+.group__mobileFeedHeaderSearchForm {
+  width: 20rem;
+  padding: 0 10px;
+}
+
+.group__mobileFeedHeaderSearchBar > input {
+  width: 100%;
+  border: none;
+}
+
+.group__mobileFeedHeaderSearchBar > input:focus {
+  border: none;
+  outline: none;
+}
+/* Group feed mobile search bar input section ends */
+
+/* Group feed mobile search bar section ends */
+
+/* Group feed mobile header right section ends */
+
+/* Group feed mobile header section ends */
+
+/* Group feed mobile pages section starts */
+.group__feedMobilePagesSecion {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.group__feedMobilePagesSecion a {
+  white-space: nowrap;
+  margin-right: 0.5rem;
+  border-radius: 9999px;
+  padding: 5px 10px;
+  background: linear-gradient(
+      to left,
+      var(--white-primary) 50%,
+      var(--primary-color) 50%
+    )
+    right;
+  background-size: 200%;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.5s ease-out;
+}
+
+.group__feedMobilePagesSecion a:hover {
+  background-position: left;
+  color: var(--white-primary) !important;
+}
+/* Group feed mobile pages section ends */
+
+@media (max-width: 1023px) {
+  .group__feedMobileAllPosts {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .group__feedMobileAllPosts {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .group__feedMobileHeader button {
+    min-width: 50px;
+  }
+
+  .group__feedMobilePagesSecion a {
+    font-size: 0.8rem;
+  }
+
+  .group__mobileFeedHeaderSearchForm {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 360px) {
+  
+}
+
+@media (max-width: 350px) {
+  .group__feedMobileHeader > h5 {
+    font-size: 1rem;
+  }
+
+  .group__feedMobileHeader button svg {
+    font-size: 1.3rem;
+  }
+}

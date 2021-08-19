@@ -154,7 +154,7 @@
 
 /* Page right section starts */
 .covid__followOrganizationsMobile {
-    display: none;
+  display: none;
 }
 
 .covid__followOrgs > div {
@@ -175,7 +175,7 @@
 }
 
 .covid__followOrgsTitle a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .covid__followOrgsTitle p {
@@ -202,7 +202,7 @@
 }
 
 .covid__OrgsFollowBtn a:hover {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .covid__OrgsFollowBtn a > button {
@@ -278,11 +278,11 @@
   }
 
   .covid__followOrganizations {
-      display: none;
+    display: none;
   }
 
   .covid__followOrganizationsMobile {
-      display: inherit;
+    display: inherit;
   }
 }
 
@@ -291,8 +291,8 @@
     max-width: 95% !important;
   }
 
-  .slick-prev {
-      left: -17px !important;
+  .covid__infoSlider .slick-prev {
+    left: -17px !important;
   }
 
   .page__titleContent {
@@ -327,9 +327,9 @@
     height: 40vh;
   }
 
-  .slick-next {
-    right: -15px !important;
-}
+  .covid__infoSlider .slick-next {
+    right: -20px !important;
+  }
 
   .covid__info {
     max-width: 100% !important;

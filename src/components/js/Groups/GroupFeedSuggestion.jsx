@@ -45,11 +45,13 @@ const GroupFeedSuggestion = () => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="group__suggestionSliderSection">
       <div className="card">
         {/* Group feed suggestion slider image section starts */}
         <div className="group__suggestionImg">
-          <img src={profileImg} alt="" />
+          <Link>
+            <img src={profileImg} alt="" />
+          </Link>
         </div>
         {/* Group feed suggestion slider image section ends */}
 

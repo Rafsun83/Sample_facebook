@@ -347,17 +347,20 @@
 
   /* Friends mobile top section starts */
   .friends__mobileTopSection a {
-    padding: 10px;
-    border-radius: 9999px;
-    background-color: var(--white-primary);
     margin-right: 0.5rem;
-    transition: background-color 0.2s ease-in-out;
-  }
+    border-radius: 9999px;
+    padding: 10px;
+    background: linear-gradient(to left, var(--white-primary) 50%, var(--primary-color) 50%) right;
+    background-size: 200%;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: .5s ease-out;
+}
 
-  .friends__mobileTopSection a:hover {
-    background-color: var(--blue-primary);
+.friends__mobileTopSection a:hover {
+    background-position: left;
     color: var(--white-primary) !important;
-  }
+}
   /* Friends mobile top section ends */
 
   .border__line {

@@ -107,7 +107,7 @@ const CovidInfoSlider = () => {
       {/* Covid info published date section ends */}
 
       {/* Covid info slider section starts */}
-      <Slider {...settings}>
+      <Slider {...settings} className="covid__infoSlider">
         {/* Covid card info section starts */}
         <div className="covid__infoCard card p-3">
           <div className="covid__country mb-2">

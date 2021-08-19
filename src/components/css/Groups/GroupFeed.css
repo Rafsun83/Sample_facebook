@@ -1,113 +1,327 @@
+.group__feedMobileSection {
+  display: none;
+}
+
 .group__rightSectionContent {
-    position: absolute;
-    left: 25%;
-    width: 75%;
-    /* display: grid;
+  position: relative;
+  left: 25%;
+  width: 75%;
+  top: 10%;
+  /* display: grid;
     grid-template-columns: 65% 35%; */
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .group__rightSection {
-    /* position: absolute;
-    left: 20%; */
-    /* background: red; */
-    /* width: 80%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 .group__rightPostSection {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* Group right post card content section starts */
 .group__rightAllPosts .card {
-    width: 35rem;
-    height: auto;
+  width: 35rem;
+  height: auto;
 }
 
 /* Group post top section starts */
 .group__postInfo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 /* Group post image section starts */
 .group__postGroupName .group__postTitle:hover,
 .group__postGroupName .group__postUsername:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 .group__postImg {
-    min-width: 3rem;
-    max-width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
 }
 
 .group__postImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 /* Group post image section ends */
 
 .group__postGroupName > p {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 }
 
 .group__postGroupName small {
-    font-size: 0.82rem;
-    font-weight: 500;
+  font-size: 0.82rem;
+  font-weight: 500;
 }
 
 .group__postDot {
-    font-size: 0.2rem;
+  font-size: 0.2rem;
 }
 
 .group__peopleIcon {
-    width: 1.2rem !important;
+  width: 1.2rem !important;
 }
 /* Group post top section ends */
 
 /* Group feed suggestion section starts */
-/* .group__rightSuggestedSection {
-    position: sticky;
-    top: 0;
-} */
+.group__rightSuggestedSection {
+  position: sticky;
+  top: 8%;
+  height: 100%;
+}
 
 .group__rightSuggestedSection > .card {
-    width: 24rem;
-    height: auto;
+  width: 24rem;
+  height: auto;
 }
 
 /* Group feed suggestion top header section starts */
 .group__suggestionTopSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .group__suggestionTopSection > h6 {
-    margin-block-start: 0 !important;
-    margin-block-end: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
 }
 
 .group__suggestionTopSection > a > button {
-    text-transform: none;
-    color: var(--blue-primary) !important;
+  text-transform: none;
+  color: var(--blue-primary) !important;
 }
 
 .group__rightSuggestedSection > .card > small {
-    font-weight: 500;
+  font-weight: 500;
 }
 /* Group feed suggestion top header section ends */
-
 
 /* Group feed suggestion section ends */
 
 /* Group right post card content section ends */
+
+/* Responsive section */
+@media (min-height: 690px) {
+  .group__rightSuggestedSection {
+    top: 12%;
+  }
+}
+
+@media (min-height: 750px) {
+  .group__rightSuggestedSection {
+    top: 10%;
+  }
+}
+
+@media (min-height: 800px) {
+  .group__rightSuggestedSection {
+    top: 9.5%;
+  }
+}
+
+@media (min-height: 850px) {
+  .group__rightSuggestedSection {
+    top: 9%;
+  }
+}
+
+@media (min-height: 900px) {
+  .group__rightSuggestedSection {
+    top: 8.5%;
+  }
+}
+
+@media (min-height: 970px) {
+  .group__rightSuggestedSection {
+    top: 8%;
+  }
+}
+
+@media (min-height: 1050px) {
+  .group__rightSuggestedSection {
+    top: 7.5%;
+  }
+}
+
+@media (min-height: 1100px) {
+  .group__rightSuggestedSection {
+    top: 7%;
+  }
+}
+
+@media (min-height: 1170px) {
+  .group__rightSuggestedSection {
+    top: 6.5%;
+  }
+}
+
+@media (min-height: 1200px) {
+  .group__rightSuggestedSection {
+    top: 6%;
+  }
+}
+
+@media (min-height: 1320px) {
+  .group__rightSuggestedSection {
+    top: 5.5%;
+  }
+}
+
+@media (min-height: 1400px) {
+  .group__rightSuggestedSection {
+    top: 5.3%;
+  }
+}
+
+@media (min-height: 1530px) {
+  .group__rightSuggestedSection {
+    top: 5%;
+  }
+}
+
+@media (min-height: 1630px) {
+  .group__rightSuggestedSection {
+    top: 4.8%;
+  }
+}
+
+@media (min-height: 1750px) {
+  .group__rightSuggestedSection {
+    top: 4.5%;
+  }
+}
+
+@media (min-height: 1870px) {
+  .group__rightSuggestedSection {
+    top: 4.3%;
+  }
+}
+
+@media (min-height: 2050px) {
+  .group__rightSuggestedSection {
+    top: 4%;
+  }
+}
+
+@media (min-height: 2200px) {
+  .group__rightSuggestedSection {
+    top: 3.8%;
+  }
+}
+
+@media (min-height: 2300px) {
+  .group__rightSuggestedSection {
+    top: 3.5%;
+  }
+}
+
+@media (min-height: 2450px) {
+  .group__rightSuggestedSection {
+    top: 3.5%;
+  }
+}
+
+@media (min-height: 2500px) {
+  .group__rightSuggestedSection {
+    top: 3.3%;
+  }
+}
+
+@media (min-height: 2650px) {
+  .group__rightSuggestedSection {
+    top: 3%;
+  }
+}
+
+@media (min-height: 2900px) {
+  .group__rightSuggestedSection {
+    top: 2.8%;
+  }
+}
+
+@media (min-height: 3000px) {
+  .group__rightSuggestedSection {
+    top: 2.7%;
+  }
+}
+
+@media (max-width: 400px) {
+  .mobile__friendImg {
+    min-width: 5rem;
+    max-width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .group__rightSectionContent {
+    left: 30%;
+    width: 70%;
+  }
+
+  .group__rightAllPosts .card {
+    width: 30rem;
+  }
+
+  .group__rightSuggestedSection > .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .group__rightSectionContent {
+    left: 35%;
+    width: 65%;
+  }
+
+  .group__rightAllPosts .card {
+    width: 27rem;
+  }
+
+  .group__rightSuggestedSection > .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .group__rightSuggestedSection {
+    display: none;
+  }
+
+  .group__rightSectionContent {
+    left: 25%;
+    width: 75%;
+  }
+
+  .group__rightAllPosts .card {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .group__rightAllPosts .card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .group__feed {
+    display: none;
+  }
+
+  .group__feedMobileSection {
+    display: block;
+  }
+}

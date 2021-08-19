@@ -83,7 +83,7 @@ const CovidFollowOrgsSliderForMobile = () => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="covid__infoSlider">
       <div className="card p-3">
         <div className="covid__followOrgsMobileImg mx-auto">
           <Link>

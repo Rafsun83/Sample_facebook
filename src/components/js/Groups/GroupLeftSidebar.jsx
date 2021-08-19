@@ -7,18 +7,13 @@ import SettingsIcon from "@material-ui/icons/Settings";
 import ExploreOutlinedIcon from "@material-ui/icons/ExploreOutlined";
 import RadioOutlinedIcon from "@material-ui/icons/RadioOutlined";
 import AddOutlinedIcon from "@material-ui/icons/AddOutlined";
-import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SearchIcon from "@material-ui/icons/Search";
-import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 // Imported files
 import "../../css/Friends/FriendRequests.css";
 import "../../css/Friends/AllFriends.css";
 import "../../css/Groups/GroupLeftSidebar.css";
 import personImg from "../../images/profile.jpg";
-import friendImg from "../../images/friend.png";
 
 const GroupLeftSidebar = ({ onFeedPage, setOnFeedPage }) => {
   return (

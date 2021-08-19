@@ -176,21 +176,6 @@
     margin-top: 1rem;
   }
 
-  /* Friends mobile top section starts */
-  .friends__mobileTopSection a {
-    padding: 10px;
-    border-radius: 9999px;
-    background-color: var(--white-primary);
-    margin-right: 0.5rem;
-    transition: background-color 0.2s ease-in-out;
-  }
-
-  .friends__mobileTopSection a:hover {
-    background-color: var(--blue-primary);
-    color: var(--white-primary) !important;
-  }
-  /* Friends mobile top section ends */
-
   .border__line {
     margin-top: 1rem;
     width: 99%;

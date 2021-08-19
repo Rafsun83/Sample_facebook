@@ -112,3 +112,21 @@
     width: 27%;
   }
 }
+
+@media (max-width: 1300px) {
+  .group__leftSidebar .friend__requestsLeftSection {
+    width: 27%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .group__leftSidebar .friend__requestsLeftSection {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .group__leftSidebar .friend__requestsLeftSection {
+    width: 32%;
+  }
+}

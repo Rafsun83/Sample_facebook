@@ -10,12 +10,12 @@
 
 /* Slick js slider button section starts */
 /* the slides */
-.slick-slide {
+.covid__infoSlider .slick-slide {
   margin: 0 6px;
 }
 
-.slick-prev,
-.slick-next {
+.covid__infoSlider .slick-prev,
+.covid__infoSlider .slick-next {
   font-size: 0;
   line-height: 0;
   position: absolute;
