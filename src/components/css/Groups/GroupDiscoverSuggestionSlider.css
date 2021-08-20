@@ -1,0 +1,252 @@
+/* Group discover suggested post card slider section starts */
+.group__discoverSuggestionSliderContent .slick-slide {
+  margin: 0 3px;
+}
+
+.group__discoverSuggestionSliderContent .slick-prev,
+.group__discoverSuggestionSliderContent .slick-next {
+  top: 0;
+  z-index: 5;
+}
+
+.group__discoverSuggestionSliderContent .slick-prev {
+  left: 94%;
+}
+
+.group__discoverSuggestionSliderContent .slick-next {
+  right: 18px;
+}
+/* Group discover suggested post card slider section ends */
+
+/* Group discover suggested post card section starts */
+
+.group__discoverSuggestionSliderContent .card {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* Group discover suggested post card image section starts */
+.group__discoverSuggestedPostImg {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  border-radius: 0.3rem;
+}
+
+.group__discoverSuggestedPostImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+/* Group discover suggested post card image section ends */
+
+/* Group discover suggested post card context section starts */
+.group__discoverSuggestedPostContext > div > a > p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.group__discoverSuggestedPostContext > div > a:hover {
+  text-decoration: underline !important;
+}
+
+.group__discoverSuggestedPostContext div:last-child {
+  display: flex;
+}
+
+.group__discoverSuggestedPostContext div:last-child > button {
+  flex: 1;
+  text-transform: none;
+  background-color: var(--blue-primary) !important;
+  color: var(--white-primary) !important;
+  font-weight: 500;
+}
+/* Group discover suggested post card context section ends */
+
+/* Group discover suggested post card section ends */
+
+/* Responsive section */
+@media (min-width: 1700px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 92%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 93%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 94%;
+  }
+}
+
+@media (min-width: 3000px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 95%;
+  }
+}
+
+@media (min-width: 3300px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 95.5%;
+  }
+}
+
+@media (min-width: 4000px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 96%;
+  }
+}
+
+@media (min-width: 4500px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 96.5%;
+  }
+}
+
+@media (min-width: 5000px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 97%;
+  }
+}
+
+@media (max-width: 1699px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 91.7%;
+  }
+}
+
+@media (max-width: 1499px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 91%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 90.5%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 88%;
+  }
+}
+
+@media (max-width: 768px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 87%;
+  }
+}
+
+@media (max-width: 700px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 86%;
+  }
+}
+
+@media (max-width: 650px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 84%;
+  }
+}
+
+@media (max-width: 576px) {
+    .group__discoverSuggestionSliderContent .slick-prev:before,
+    .group__discoverSuggestionSliderContent .slick-next:before {
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width: 550px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 83%;
+  }
+}
+
+@media (max-width: 540px) {
+  .group__discoverSuggestionSliderContent .slick-slide {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 81%;
+  }
+}
+
+@media (max-width: 450px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 79%;
+  }
+}
+
+@media (max-width: 400px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 77%;
+  }
+}
+
+@media (max-width: 370px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 75%;
+  }
+}
+
+@media (max-width: 360px) {
+  .group__discoverSuggestedPostContext > div > a > p {
+    font-size: 0.9rem;
+  }
+
+  .group__discoverSuggestedPostContext > div > small {
+      font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 340px) {
+    .group__discoverSuggestionSliderContent .slick-prev:before,
+    .group__discoverSuggestionSliderContent .slick-next:before {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 330px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 73%;
+  }
+}
+
+@media (max-width: 315px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 71%;
+  }
+}
+
+@media (max-width: 290px) {
+  .group__discoverSuggestionSliderContent .slick-prev {
+    left: 69%;
+  }
+}

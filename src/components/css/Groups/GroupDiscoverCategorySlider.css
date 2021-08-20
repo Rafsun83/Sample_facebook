@@ -1,0 +1,45 @@
+.group__discoverCategoryImg {
+  height: 10rem;
+}
+
+.group__discoverOverlay {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.group__discoverCategoryImg:hover .group__discoverOverlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.group__discoverCategoryImg p {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  word-break: break-all;
+  color: var(--white-primary);
+  font-weight: 500;
+}
+
+@media (max-width: 540px) {
+  .group__discoverCategorySliderContent .slick-slide {
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 1024px) {
+    .group__discoverOverlay {
+        opacity: 1;
+        visibility: visible;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+}

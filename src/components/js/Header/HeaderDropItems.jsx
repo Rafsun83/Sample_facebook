@@ -40,7 +40,7 @@ const HeaderDropItems = () => {
           </div>
         </Link>
 
-        <Link className="drop__items" to="covid-19-info" onClick={() => {setShowDropItems(!showDropItems)}}>
+        <Link className="drop__items" to="/covid-19-info/" onClick={() => {setShowDropItems(!showDropItems)}}>
           <div className="home__leftIcon">
             <span
               className="iconify"

@@ -73,13 +73,20 @@
 /* View all friend requests section starts */
 .view__friendRequets {
   display: flex;
-  transition: background-color 0.2s ease-in-out;
+  border-radius: 0.3rem;
+  background: linear-gradient(
+      to left,
+      var(--white-primary) 50%,
+      var(--bg-light) 50%
+    )
+    right;
+  background-size: 200%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .view__friendRequets:hover {
-  cursor: pointer;
-  background-color: var(--bg-light);
-  border-radius: 0.3rem;
+  background-position: left;
 }
 
 /* Friend requests person image section starts */

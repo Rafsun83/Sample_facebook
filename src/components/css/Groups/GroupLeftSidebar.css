@@ -47,13 +47,20 @@
 .group__infoContainer > a {
   display: flex;
   align-items: center;
-  transition: background-color 0.2s;
+  background: linear-gradient(
+      to left,
+      var(--white-primary) 50%,
+      var(--bg-light) 50%
+    )
+    right;
+  background-size: 200%;
   padding: 7px;
   border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
 }
 
 .group__infoContainer > a:hover {
-  background-color: var(--bg-light);
+  background-position: left;
 }
 
 /* Group image section starts */

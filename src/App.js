@@ -71,12 +71,6 @@ function App() {
             <GroupDiscover />
           </Route>
           {/* Group feed page section ends */}
-
-          {/* Group discover page section starts */}
-          <Route path="/groups/discover/" exact>
-            <GroupDiscover />
-          </Route>
-          {/* Group discover page section ends */}
         </DropItemsContext.Provider>
       </Switch>
     </div>

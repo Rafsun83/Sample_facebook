@@ -1,0 +1,88 @@
+.group__discoverRightSection {
+  position: relative;
+  left: 25%;
+  width: 74%;
+  top: 10%;
+  overflow-x: hidden;
+  /* background: red; */
+}
+
+/* Group discover right header section starts */
+.group__discoverRightHeader > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group__discoverRightHeader > div > h5 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.group__discoverRightHeader p {
+  font-weight: 500;
+}
+
+.group__discoverRightHeader > div > a > button {
+  text-transform: none;
+  font-weight: 500;
+}
+/* Group discover right header section ends */
+
+/* Group discover border line */
+.group__discoverBorder {
+  width: 100%;
+  height: 1px;
+  background-color: var(--gray-border);
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1550px) {
+  .group__discoverRightSection {
+    left: 30%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .group__discover .group__leftSidebar {
+    display: none;
+  }
+
+  .group__discoverRightSection {
+    position: static;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .group__discoverRightSection {
+    width: 100%;
+  }
+
+  .group__discoverRightHeader {
+      margin-left: 0.5rem;
+  }
+
+  .group__discoverRightHeader > a > button {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .group__discoverRightHeader > div > h5 {
+    font-size: 1rem;
+  }
+
+  .group__discoverRightHeader p {
+    font-size: 0.9rem;
+  }
+
+  .group__discoverRightHeader > a > button {
+    font-size: 0.9rem;
+    min-width: 50px;
+  }
+}

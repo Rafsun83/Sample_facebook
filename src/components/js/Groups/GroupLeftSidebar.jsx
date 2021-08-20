@@ -16,6 +16,419 @@ import "../../css/Groups/GroupLeftSidebar.css";
 import personImg from "../../images/profile.jpg";
 
 const GroupLeftSidebar = ({ onFeedPage, setOnFeedPage }) => {
+  const showGroupsPersonHasJoined = () => {
+    return (
+      <>
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Python</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">React JS, Bandgladesh</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Dog Lovers of Bangladesh</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">Unity game developers international</p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+
+        <Link className="mb-1">
+          {/* Group image section starts */}
+          <div className="group__image">
+            <img src={personImg} alt="" />
+          </div>
+          {/* Group image section ends */}
+
+          {/* Group title section starts */}
+          <div className="group__titleContext">
+            <p className="fw-bold">
+              kjbaefkjbekfajb game developers international
+            </p>
+            <small className="text-muted">Last active 1 hour ago</small>
+          </div>
+          {/* Group title section ends */}
+        </Link>
+      </>
+    );
+  };
+
   return (
     <div className="group__leftSidebar">
       {/* Friend requests left section starts */}
@@ -91,412 +504,7 @@ const GroupLeftSidebar = ({ onFeedPage, setOnFeedPage }) => {
             <h6 className="fw-bold mb-3 mt-2">Groups you have joined</h6>
 
             <div className="group__infoContainer">
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Python</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">React JS, Bandgladesh</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Dog Lovers of Bangladesh</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">Unity game developers international</p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
-
-              <Link className="mb-1">
-                {/* Group image section starts */}
-                <div className="group__image">
-                  <img src={personImg} alt="" />
-                </div>
-                {/* Group image section ends */}
-
-                {/* Group title section starts */}
-                <div className="group__titleContext">
-                  <p className="fw-bold">
-                    kjbaefkjbekfajb game developers international
-                  </p>
-                  <small className="text-muted">Last active 1 hour ago</small>
-                </div>
-                {/* Group title section ends */}
-              </Link>
+              {showGroupsPersonHasJoined()}
             </div>
           </div>
           {/* Group left sidebar bottom part section ends */}

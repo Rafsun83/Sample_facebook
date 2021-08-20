@@ -10,12 +10,19 @@
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  transition: background-color 0.15s ease-out;
+  background: linear-gradient(
+      to left,
+      var(--bg-light) 50%,
+      var(--white-primary) 50%
+    )
+    right;
+  background-size: 200%;
   font-size: 0.85rem;
+  transition: 0.3s ease-in-out;
 }
 
 .home__leftLinks:hover .home__leftContent {
-  background-color: var(--white-primary);
+  background-position: left;
 }
 
 /* Profile section starts */

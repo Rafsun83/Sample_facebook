@@ -38,12 +38,20 @@
   align-items: center;
   padding: 12px 6px;
   font-size: 1.1rem;
-  transition: background-color 0.2s ease-in-out;
+  background: linear-gradient(
+      to left,
+      var(--white-primary) 50%,
+      var(--bg-light) 50%
+    )
+    right;
+  background-size: 200%;
+  transition: 0.3s ease-in-out;
   border-radius: 0.5rem;
 }
 
 .friends__bottomSectionStarts a:hover > div {
-  background-color: var(--bg-light);
+  /* background-color: var(--bg-light); */
+  background-position: left;
 }
 
 .friend__requestsLink > .iconify {

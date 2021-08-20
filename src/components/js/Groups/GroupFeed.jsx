@@ -313,6 +313,32 @@ const GroupFeed = () => {
     );
   };
 
+  const showGroupFeedSuggestion = () => {
+    return (
+      <>
+        {/* Group feed suggestion top header section starts */}
+        <div className="card mt-2 p-3">
+          <div className="group__suggestionTopSection">
+            <h6 className="fw-bold">Suggested For You</h6>
+            <Link to="/groups/discover/">
+              <Button>See More</Button>
+            </Link>
+          </div>
+          <small className="text-muted mb-3">
+            Groups you might be interested in
+          </small>
+          {/* Group feed suggestion top header section ends */}
+
+          {/* Group feed suggestion slider card section starts */}
+          <div className="group__feedSuggestionSliderCard">
+            <GroupFeedSuggestion />
+          </div>
+          {/* Group feed suggestion slider card section ends */}
+        </div>
+      </>
+    );
+  };
+
   return (
     <>
       {/* Group feed desktop version section starts */}
@@ -332,25 +358,7 @@ const GroupFeed = () => {
 
           {/* Group feed suggestion section starts */}
           <div className="group__rightSuggestedSection">
-            {/* Group feed suggestion top header section starts */}
-            <div className="card mt-2 p-3">
-              <div className="group__suggestionTopSection">
-                <h6 className="fw-bold">Suggested For You</h6>
-                <Link to="/groups/discover/">
-                  <Button>See More</Button>
-                </Link>
-              </div>
-              <small className="text-muted mb-3">
-                Groups you might be interested in
-              </small>
-              {/* Group feed suggestion top header section ends */}
-
-              {/* Group feed suggestion slider card section starts */}
-              <div className="group__feedSuggestionSliderCard">
-                <GroupFeedSuggestion />
-              </div>
-              {/* Group feed suggestion slider card section ends */}
-            </div>
+            {showGroupFeedSuggestion()}
           </div>
           {/* Group feed suggestion section ends */}
 

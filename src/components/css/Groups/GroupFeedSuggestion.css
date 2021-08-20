@@ -26,12 +26,26 @@
 .group__suggestionImg {
     width: 100%;
     height: 12rem;
+    position: relative;
 }
 
 .group__suggestionImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.group__suggestionCloseIcon {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 1.7rem !important;
+    height: 1.7rem !important;
+    z-index: 5;
+    color: var(--white-primary) !important;
 }
 /* Group feed suggestion slider image section ends */
 

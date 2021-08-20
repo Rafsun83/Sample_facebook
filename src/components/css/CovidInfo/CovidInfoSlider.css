@@ -114,3 +114,17 @@
 /* Covid more data section ends */
 
 /* Covid info slider section starts */
+
+@media (max-width: 576px) {
+  .covid__infoSlider .slick-prev:before,
+  .covid__infoSlider .slick-next:before {
+      font-size: 35px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .covid__infoSlider .slick-prev:before,
+  .covid__infoSlider .slick-next:before {
+      font-size: 32px !important;
+  }
+}

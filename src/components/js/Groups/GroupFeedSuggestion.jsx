@@ -7,6 +7,9 @@ import Button from "@material-ui/core/Button";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Icons
+import CloseOutlinedIcon from "@material-ui/icons/CloseOutlined";
+
 // Imported files
 import profileImg from "../../images/Post 1.jpg";
 import "../../css/Groups/GroupFeedSuggestion.css";
@@ -49,6 +52,7 @@ const GroupFeedSuggestion = () => {
       <div className="card">
         {/* Group feed suggestion slider image section starts */}
         <div className="group__suggestionImg">
+          <CloseOutlinedIcon className="group__suggestionCloseIcon" />
           <Link>
             <img src={profileImg} alt="" />
           </Link>
@@ -82,6 +86,7 @@ const GroupFeedSuggestion = () => {
       <div className="card">
         {/* Group feed suggestion slider image section starts */}
         <div className="group__suggestionImg">
+          <CloseOutlinedIcon className="group__suggestionCloseIcon" />
           <img src={profileImg} alt="" />
         </div>
         {/* Group feed suggestion slider image section ends */}
@@ -113,6 +118,7 @@ const GroupFeedSuggestion = () => {
       <div className="card">
         {/* Group feed suggestion slider image section starts */}
         <div className="group__suggestionImg">
+          <CloseOutlinedIcon className="group__suggestionCloseIcon" />
           <img src={profileImg} alt="" />
         </div>
         {/* Group feed suggestion slider image section ends */}
