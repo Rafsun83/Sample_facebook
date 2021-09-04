@@ -166,7 +166,7 @@ const CovidInfo = () => {
     return (
       <div className="covid__followOrganizations">
         <div className="card p-3">
-          <h6 className="fw-bold">Leading Health Organizations</h6>
+          <h6 className="fw-bold mb-3">Leading Health Organizations</h6>
 
           <div className="covid__followOrgs">
             <div className="my-2">
@@ -251,7 +251,7 @@ const CovidInfo = () => {
     return (
       <div className="covid__followOrganizationsMobile">
         <div className="card p-3">
-          <h6 className="fw-bold">Leading Health Organizations</h6>
+          <h6 className="fw-bold mb-3">Leading Health Organizations</h6>
 
           <CovidFollowOrgsSliderForMobile />
         </div>
