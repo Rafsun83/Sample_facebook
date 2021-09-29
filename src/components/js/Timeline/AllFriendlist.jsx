@@ -51,6 +51,7 @@ const AllFriendlist = () => {
                         ></span>
                         <p>Studying of Student</p>
                       </div>
+                      {/* instution name start */}
                       <div className="Timeline-intro text-muted">
                         <span
                           className="iconify info-icon"
@@ -66,6 +67,7 @@ const AllFriendlist = () => {
                           </Link>{" "}
                         </p>
                       </div>
+                      {/* Institute name  end  */}
                       <div className="Timeline-intro text-muted">
                         <span
                           className="iconify info-icon"
