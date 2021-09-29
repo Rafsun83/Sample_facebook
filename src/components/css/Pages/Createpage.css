@@ -1,0 +1,240 @@
+.Createpage-main-section {
+    display: grid;
+    grid-template-columns: [first] 26% [line2] auto [end];
+}
+
+
+/*middle Create pages section start  */
+
+.create_page {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.New-page-create {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.GroupCreate {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    height: 100vh;
+    border-radius: 8px;
+}
+
+.GroupPages {
+    display: flex;
+    gap: 1rem;
+    padding-block-start: 1rem;
+    margin-left: 1rem;
+}
+
+.Pagesgroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.create-btn {
+    border: none;
+    color: var(--blue-primary);
+}
+
+.GroupCreate hr {
+    margin: 0;
+}
+
+.GroupPages>button {
+    border: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+
+/* middle create page section end  */
+
+
+/* popup modal start  */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.popup.active {
+    display: block;
+}
+
+.popup-container {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    background-color: white;
+    padding: 2rem;
+    transform-origin: top;
+    animation: bounce .7s ease-in-out;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    border-radius: 10px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-500px);
+    }
+    40% {
+        transform: translateY(0)
+    }
+    75% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+.popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+    line-height: 20px;
+    background-color: brown;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* .groupForm {
+position: relative;
+} */
+
+.coverImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.updateCover {
+    position: absolute;
+    top: 17px;
+    right: 12px;
+}
+
+.propic {
+    width: 100px;
+}
+
+.updateprofile {
+    position: absolute;
+    left: 4.5rem;
+    top: 0;
+}
+
+
+/* input dropdown  */
+
+
+/* .box {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+} */
+
+.input_box select {
+    word-wrap: normal;
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--border-color);
+    font-size: var(--normal-font-size);
+    padding: 0rem 1rem;
+    opacity: .65;
+}
+
+
+/* input form  */
+
+.input_box {
+    position: relative;
+    height: 48px;
+    margin-bottom: 1.5rem;
+}
+
+.input_item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    z-index: 1;
+    outline: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--border-color);
+    font-size: var(--normal-font-size);
+}
+
+.form_lebel {
+    position: absolute;
+    padding: 0.25rem;
+    left: 1rem;
+    top: .5rem;
+    background-color: #fff;
+    transition: .3s;
+    color: var(--input-color);
+    font-size: var(--normal-font-size);
+}
+
+.input_item:focus+.form_lebel {
+    top: -.8rem;
+    left: .8rem;
+    color: var(--first-color);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    z-index: 10;
+}
+
+.input_item :not(:placeholder-shown).input_item :not(:focus)+.form_lebel {
+    top: -.5rem;
+    left: .8rem;
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    z-index: 10;
+}
+
+.input_item :focus {
+    border: 1.5px solid var(--first-color);
+}
+
+.Input_form {
+    margin-top: 3rem;
+}
+
+
+/* popup modal end  */

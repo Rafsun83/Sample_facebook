@@ -1,0 +1,650 @@
+.Yourpages_main_section {
+    display: grid;
+    grid-template-columns: [first] 26% [second] auto [end];
+}
+
+.hello {
+    background-color: red;
+    padding: 20px;
+}
+
+
+/* middle view  nav bar start  */
+
+.Yourpages-mobile-bar {
+    display: flex;
+    column-gap: 2rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+}
+
+.mobile-bar-Your-pages {
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
+    margin-top: 1rem;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 30px;
+    width: 143px;
+    /* transition: ease-out 0.3s; */
+    background: linear-gradient(to left, #fff 50%, #65a2df 50%) right;
+    background-size: 200%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-bar-Your-pages:hover {
+    background-position: left;
+}
+
+.mobile-bar-Your-pages:hover strong {
+    color: #fff;
+}
+
+.mobile-bar-icon {
+    white-space: nowrap;
+    font-size: .8rem;
+}
+
+.mobile_nav {
+    white-space: nowrap;
+    font-size: .8rem;
+}
+
+
+/* mobile view nav bar end  */
+
+
+/* yourpage middle section css */
+
+.Pagesmiddle {
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yourpages-middle-section {
+    /* margin-bottom: 5rem; */
+    /* width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.yourpages-middle {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.yourpages-profile img {
+    width: 160px;
+    border-radius: 100%;
+    border: 2px solid var(--green-primary);
+}
+
+.Yourpages-Title {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.more-btn {
+    border: 1px solid var(--border-color) !important;
+    padding: .2rem !important;
+    outline: none !important;
+}
+
+.Yourpages-post {
+    display: flex;
+    gap: 1rem;
+}
+
+.Yourpages-position {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.Insights-part {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.insights-div {
+    background-color: var(--bg-light);
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+
+.Insights-part p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+/* .Reached-size {
+        text-align: end;
+    } */
+
+.Yourpage-history {
+    margin-top: 1rem;
+    line-height: 1rem;
+}
+
+.Yourpages-information {
+    display: flex;
+    align-items: flex-start;
+    color: dimgray;
+}
+
+.Yourpages-information p {
+    width: 80%;
+    text-overflow: wrap !important;
+}
+
+.profile_icon {
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+.eidit-button {
+    border: 1px solid var(--gray-border);
+    border-radius: 3px;
+    padding: 8px;
+}
+
+
+/* Your pages photos album start */
+
+.Yourpages-photos-ad {
+    margin-top: 2rem;
+    /* border: 1px solid; */
+    /* box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%); */
+}
+
+.Yourpages-album-section {
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.Booked {
+    padding: 1rem;
+}
+
+
+/* .Yourpages-photos {
+        width: 320px;
+        border: 1px solid;
+    } */
+
+.Yourpages-photos {
+    /* width: 32%; */
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    position: relative;
+    flex: 1;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}
+
+.Yourpages-first {
+    padding: 1rem;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* width: 33%; */
+    border: 2px solid lightgray;
+    row-gap: rem;
+    padding: 8px;
+    gap: .5rem;
+    border-radius: 3px;
+    /* position: absolute; */
+}
+
+.album img {
+    width: 110px;
+    height: 100px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+
+/* your pages photos album end  */
+
+
+/* your pages create ad start  */
+
+.create-Add {
+    padding: 1rem;
+}
+
+.create-add {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .col-ad {
+        text-align: center;
+    } */
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 1rem !important;
+}
+
+.details-ad {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 5px;
+    background-color: var(--bg-light);
+}
+
+.create-ad-icon {
+    min-width: 3rem;
+    min-height: 3rem;
+    background-color: lightgray;
+    border-radius: 100%;
+}
+
+
+/* yourpages create ad end  */
+
+
+/* your pages booking part start  */
+
+.Booking-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Booking {
+    display: flex;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+    margin-top: 1rem;
+}
+
+.booking-icon {
+    min-width: 2rem !important;
+    min-height: 2rem !important;
+}
+
+.next-icon {
+    min-width: 3rem;
+    min-height: 3rem;
+}
+
+
+/* your pages booking part end  */
+
+
+/* pages middle nav bar start*/
+
+.pages-bar {
+    margin-top: 1rem;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.Yourpages-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Yourpages-bar-button {
+    padding: 15px;
+    display: flex;
+}
+
+.Yourpages-bar-button a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    color: gray;
+    font-weight: 500;
+}
+
+.prom-div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-right: 1rem;
+}
+
+.promot-btn {
+    display: flex;
+    align-items: end;
+    border: none;
+    background: var(--blue-primary);
+    color: white;
+    padding: 3px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    /* width: 16%; */
+    border-radius: 5px;
+}
+
+.prom-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: .14rem;
+}
+
+.middle_bar_icon {
+    display: flex;
+    gap: .5rem;
+}
+
+.dot-icon {
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    background-color: #a9a9a978;
+    border-radius: 3px;
+}
+
+
+/* pages middle nav bar end  */
+
+
+/* pages   post card start  */
+
+.pages-post {
+    margin-top: 1rem;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.post-Yourpages {
+    padding: 1rem;
+}
+
+.pages-post-head {
+    display: flex;
+    gap: 1rem;
+}
+
+.pages-post-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.pages-post-title a {
+    text-decoration: none;
+}
+
+.user-Name:hover {
+    text-decoration: underline;
+}
+
+.update-propic img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.yourpage_user {
+    margin-block-end: 0 !important;
+}
+
+.express-button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.express-button button {
+    background: none;
+    border: 1px solid var(--gray-border);
+}
+
+.express-button1 {
+    color: var(--blue-primary);
+    border-radius: 4px;
+    padding: 4px 14px;
+}
+
+.express-button2 {
+    color: var(--danger-primary);
+    border-radius: 4px;
+    padding: 4px 14px;
+}
+
+.express-button3 {
+    color: var(--green-primary);
+    border-radius: 4px;
+    padding: 4px 14px;
+}
+
+.heart-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    /* margin-left: 1rem;
+        margin-right: 1rem; */
+    padding: .6rem;
+}
+
+.comment-post-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.comment-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.comment-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* pages post card end  */
+
+
+/*responsive mobile view  media query  */
+
+
+/* @media screen and (max-width: 1462px) {
+    .Yourpages-album-section {
+        display: flex;
+        column-gap: 1rem;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+} */
+
+@media screen and (max-width: 1137px) {
+    .Reachedpost {
+        display: flex;
+        padding: 0px 5px;
+        column-gap: .5rem;
+    }
+    .Yourpages-position {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .Yourpages_main_section {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .Pagesmiddle {
+        margin-top: 2rem;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .Reached-text p {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        display: grid;
+        grid-template-columns: [first] 0% [line2] auto [end];
+    }
+    .Yourpages-side {
+        visibility: hidden;
+        display: none;
+    }
+    .Create-invites {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .yourpages-profile img {
+        width: 130px;
+        border-radius: 100%;
+        border: 2px solid var(--green-primary);
+    }
+    .group-title {
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+    .Yourpages-Title {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1rem;
+        align-items: flex-start;
+    }
+    .yourpages-middle-section {
+        margin-bottom: 1rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    }
+}
+
+@media screen and (min-width:1099px) {
+    .Yourpages-mobile-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .Reached-size h6 {
+        font-size: 1rem !important;
+    }
+    .Reached-text p {
+        font-size: .9rem !important;
+    }
+    .Yourpages-album-section {
+        display: block;
+        column-gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .album img {
+        width: 100%;
+        height: 100px;
+        border-radius: 3px;
+    }
+    .Yourpages-first {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    .Yourpages-bar {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem;
+    }
+    .Yourpages-bar-button {
+        padding: 7px;
+    }
+    .prom-div {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-right: 1rem;
+        margin-right: 1rem !important;
+        margin-left: .9rem;
+    }
+    .Pagesmiddle {
+        margin-top: 1rem;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .modal-form {
+        max-width: 48rem !important;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .yourpages-middle {
+        display: block;
+        /* align-items: center; */
+        justify-content: space-around;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .more-btn {
+        border: 1px solid var(--border-color) !important;
+        padding: .2rem !important;
+        outline: none !important;
+    }
+    .yourpages-profile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .Yourpages-bar-button a {
+        text-decoration: none;
+        font-size: 15px;
+        padding: 5px;
+        color: gray;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .create-btn {
+        display: none;
+    }
+}
+
+
+/* midea query end  */

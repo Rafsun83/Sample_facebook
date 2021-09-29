@@ -149,7 +149,7 @@ const HomeLeftContent = () => {
         {/* Chat manager section ends */}
 
         {/* Pages section starts */}
-        <Link className="home__leftLinks">
+        <Link className="home__leftLinks" to="/page/invite/">
           <div className="home__leftContent">
             <div className="home__leftIcon">
               <span

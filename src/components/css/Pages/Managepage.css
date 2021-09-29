@@ -1,0 +1,178 @@
+.Managepage_full_section {
+    display: grid;
+    grid-template-columns: [first] 26% [second] auto [end];
+}
+
+
+/* middle bar start  */
+
+.iconify {
+    width: 2rem;
+}
+
+.Ad-Cenetr {
+    font-weight: bold;
+}
+
+.middle-card {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.middle-part {
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.Get-button {
+    background-color: var(--blue-primary);
+    color: var(--white-primary);
+    margin-top: 1rem;
+}
+
+.Get-button:hover {
+    color: var(--white-primary);
+}
+
+
+/* middle bar end  */
+
+
+/* middle Summary card start */
+
+.middlebar-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15px;
+    column-gap: 10px;
+}
+
+.summary-section {
+    background-color: var(--white-primary);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.btn-dropdown {
+    background-color: rgba(192, 192, 192, 0.418);
+}
+
+.summary-part {
+    margin-top: 10px;
+}
+
+.summary-side {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.summary-box {
+    flex: 1;
+    background-color: var(--bg-light);
+    height: 150px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.summary-box div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* middle Summary card end  */
+
+
+/* create button start */
+
+.Crate-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--white-primary);
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+}
+
+.btn-create {
+    background-color: rgba(191, 248, 248, 0.383);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: var(--blue-primary);
+}
+
+#item-text {
+    font-size: 16px;
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}
+
+
+/* create button end  */
+
+
+/* Tools card section start */
+
+.Tools-sub {
+    display: flex;
+    column-gap: 12px;
+}
+
+
+/* Tools card section end  */
+
+
+/* media query  */
+
+@media screen and (max-width: 1530px) {
+    .summary-side {
+        column-gap: 10px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .middlebar-grid {
+        display: block;
+        margin-top: 15px;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .side-bar {
+        visibility: hidden;
+    }
+    .middle-part {
+        width: 98%;
+        margin-top: .5rem;
+    }
+    .main-section {
+        display: block;
+    }
+    .Managepage_full_section {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 449px) {
+    .summary-box {
+        flex: auto;
+        width: 48%;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 230px) {
+    body {
+        overflow-x: hidden;
+    }
+}
