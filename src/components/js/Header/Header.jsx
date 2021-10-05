@@ -21,7 +21,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 // Imported files
 import "../../css/Header/Header.css";
 import HeaderDropItems from "./HeaderDropItems";
-import logoImg from "../../images/logo.jpg";
+import logoImg from "../../images/finallogo.jpeg";
 import profileImg from "../../images/profile.jpg";
 
 // Imported context files

@@ -22,21 +22,24 @@ const Watchpage = () => {
             <div className="Watch-mobile-bar">
 
                 <div className="mobile-bar-Watch-pages">
-                    <span className="iconify pages-icon" data-icon="mdi:flag-variant"></span>
+                    <span className="iconify pages-icon" 
+                    data-icon="mdi:flag-variant"></span>
                     <div>
                         <strong className="mobile_nav_name" >Your pages</strong>
                         {/* style="white-space: nowrap;" */}
                     </div>
                 </div>
                 <div className="mobile-bar-Watch-pages">
-                    <span className="iconify modify-icon" data-icon="mdi:account-child-circle"></span>
+                    <span className="iconify modify-icon" 
+                    data-icon="mdi:account-child-circle"></span>
                     <div>
                         <strong className="mobile_nav_name" >Discover</strong>
                         {/* style="white-space: nowrap;" */}
                     </div>
                 </div>
                 <div className="mobile-bar-Watch-pages">
-                    <span className="iconify modify-icon" data-icon="mdi:thumb-up"></span>
+                    <span className="iconify modify-icon" 
+                    data-icon="mdi:thumb-up"></span>
                     <div>
                         <strong className="mobile_nav_name">Like page</strong>
                         {/* style="white-space: nowrap;" */}
@@ -57,30 +60,35 @@ const Watchpage = () => {
                         <img src={profileImg} alt=""/>
 
                             <div>
-                                <a href="">
-                                    <h6>Family Entertainment BD . Follow</h6>
-                                    {/* style="margin-block-end: 0;" */}
-                                </a>
-                                <a href="">
-                                    <p>4 Auguest <span className="iconify" data-icon="mdi:earth"></span> </p>
-                                </a>
+                                <Link className="Watch_pages_Name">
+                                <h6>Family Entertainment BD . Follow</h6>
+                                </Link>
+                                <Link className="pages_post_time">
+                                <p>4 Auguest <span className="iconify" 
+                                data-icon="mdi:earth"></span> </p>
+                                </Link>
                             </div>
 
                         </div>
 
                         <div className="video-copy-link">
-                            <a href=""> <span className="iconify copy-icon" data-icon="mdi:dots-horizontal"></span></a>
+                           <Link>
+                           <span className="iconify copy-icon" 
+                           data-icon="mdi:dots-horizontal"></span>
+                           </Link>
                         </div>
                     </div>
                     <div class="video-describe">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quaerat.</p>
                     </div>
                     {/* <!-- video uploded here  --> */}
-                    <video className="page-video video-js vjs-theme-forest vjs-fluid " data-setup="{}" controls autoplay muted>
-
-                        <source src={Video}
-                                type="video/webm" />        
+                    <Link>
+                    <video className="page-video video-js vjs-theme-forest vjs-fluid " 
+                    data-setup="{}" controls autoplay muted>
+                     <source src={Video}
+                    type="video/webm" />        
                     </video>
+                    </Link>
                     {/* <!-- video uploaded end  --> */}
 
                     {/* <!-- like comment section  --> */}
@@ -92,29 +100,40 @@ const Watchpage = () => {
 
                         </div>
                     </div>
-                    <hr />
+                    <hr className="commentsection_upperline"/>
                     {/* style="margin-block-start: 0 !important;" */}
                     {/* <!-- like comment section end  --> */}
 
-                    {/* <!-- comment section  --> */}
+                    {/* <!--Like/ comment /share button start  --> */}
                     <div className="express-button">
-                        <button className="express-button1"><span className="iconify heart-icon" data-icon="mdi:comment-outline"></span>COMMENT</button>
-                        <button className="express-button2"><span className="iconify heart-icon" data-icon="mdi:heart-outline"></span>LIKE</button>
-                        <button className="express-button3"><span className="iconify heart-icon" data-icon="mdi:share-variant-outline"></span>SHARE</button>
+                        <button className="express-button1">
+                        <span className="iconify heart-icon" 
+                        data-icon="mdi:comment-outline">
+                        </span>COMMENT</button>
+                        <button className="express-button2">
+                        <span className="iconify heart-icon" 
+                        data-icon="mdi:heart-outline">
+                        </span>LIKE</button>
+                        <button className="express-button3">
+                        <span className="iconify heart-icon" 
+                        data-icon="mdi:share-variant-outline">
+                        </span>SHARE</button>
 
                     </div>
-                    <hr />
-                    {/* style="margin-left: 1rem; margin-right: 1rem; border: 1px solid;  margin-bottom: .1rem;" */}
-
+                    {/* like/comment/share button end  */}
+                    <hr className="Comentsectin_underline" />
+                    {/* comment box start  */}
                     <div className="comment-section">
                         <div className="comment-post-pic">
                             <img src={profileImg} alt=""/>
 
                         </div>
-                        <textarea className="comment-input" placeholder="Write a public comment"></textarea>
-                        <a href=""> <span className="iconify comment-icon" data-icon="mdi:emoticon-outline"></span></a>
+                        <textarea className="comment-input" 
+                        placeholder="Write a public comment"></textarea>
+                        <span className="iconify comment-icon" 
+                        data-icon="mdi:emoticon-outline"></span>
                     </div>
-                    {/* <!-- comment section end  --> */}
+                    {/* <!-- comment box end  --> */}
                 </div>
                 {/* <!-- video card section end  --> */}
             </div>
@@ -126,37 +145,39 @@ const Watchpage = () => {
                 <div className="video-section">
                     <div className="video-content">
                         <div className="video-profile">
-
-                            <a href=""> <img src={profileImg} alt=""/></a>
-
+                            <Link>
+                            <img src={profileImg} alt=""/>
+                            </Link>
                             <div>
-                                <a href="">
-                                    <h6>Family Entertainment BD . Follow</h6>
-                                    {/* style="margin-block-end: 0;" */}
-                                </a>
-                                <a href="">
-                                    <p>4 Auguest <span className="iconify" data-icon="mdi:earth"></span> </p>
-                                </a>
-                            </div>
-
-
+                          <Link className="Watch_pages_Name">
+                          <h6>Family Entertainment BD . Follow</h6>
+                          </Link>
+                          <Link className="pages_post_time">
+                          <p>4 Auguest <span className="iconify" 
+                          data-icon="mdi:earth"></span> </p>
+                          </Link>
+                          </div>
                         </div>
 
 
                         <div className="video-copy-link">
-                            <a href=""> <span className="iconify copy-icon" data-icon="mdi:dots-horizontal"></span></a>
+                            <Link>
+                            <span className="iconify copy-icon" 
+                            data-icon="mdi:dots-horizontal"></span>
+                            </Link>
                         </div>
                     </div>
                     <div className="video-describe">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quaerat.</p>
                     </div>
                     {/* <!-- video uploded here  --> */}
-                    <video className="page-video video-js vjs-theme-forest vjs-fluid " data-setup="{}" controls autoplay muted>
-                       
-
-                        <source src={Video2nd}
-                                type="video/webm" />        
+                   <Link>
+                   <video className="page-video video-js vjs-theme-forest vjs-fluid " 
+                    data-setup="{}" controls autoplay muted>
+                    <source src={Video2nd}
+                            type="video/webm" />        
                     </video>
+                   </Link>
                     {/* <!-- video uploaded end  --> */}
 
                     {/* <!-- like comment section  --> */}
@@ -168,27 +189,39 @@ const Watchpage = () => {
 
                         </div>
                     </div>
-                    <hr/>
+                    <hr  className="commentsection_upperline"/>
                     {/* style="margin-block-start: 0 !important;" */}
                     {/* <!-- like comment section end  --> */}
 
-                    {/* <!-- comment section  --> */}
+                    {/* <!-- comment/like/share button --> */}
                     <div className="express-button">
-                        <button className="express-button1"><span className="iconify heart-icon" data-icon="mdi:comment-outline"></span>COMMENT</button>
-                        <button className="express-button2"><span className="iconify heart-icon" data-icon="mdi:heart-outline"></span>LIKE</button>
-                        <button className="express-button3"><span className="iconify heart-icon" data-icon="mdi:share-variant-outline"></span>SHARE</button>
+                        <button className="express-button1">
+                        <span className="iconify heart-icon" 
+                         data-icon="mdi:comment-outline">
+                       </span>COMMENT</button>
+                        <button className="express-button2">
+                        <span className="iconify heart-icon" 
+                        data-icon="mdi:heart-outline">
+                        </span>LIKE</button>
+                        <button className="express-button3">
+                        <span className="iconify heart-icon" 
+                        data-icon="mdi:share-variant-outline">
+                        </span>SHARE</button>
 
                     </div>
-                    <hr/>
-                    {/* style="margin-left: 1rem; margin-right: 1rem; border: 1px solid;  margin-bottom: .1rem;" */}
-
+                     {/* <!-- comment/like/share button --> */}
+                    <hr  className="commentsection_upperline"/>
                     <div className="comment-section">
                         <div className="comment-post-pic">
                             <img src={profileImg} alt=""/>
 
                         </div>
-                        <textarea className="comment-input" placeholder="Write a public comment"></textarea>
-                        <a href=""> <span className="iconify comment-icon" data-icon="mdi:emoticon-outline"></span></a>
+                        <textarea className="comment-input" 
+                        placeholder="Write a public comment"></textarea>
+                        <Link>
+                        <span className="iconify comment-icon" 
+                        data-icon="mdi:emoticon-outline"></span>
+                        </Link>
                     </div>
                     {/* <!-- comment section end  --> */}
                 </div>

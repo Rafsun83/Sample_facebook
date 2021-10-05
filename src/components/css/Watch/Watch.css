@@ -50,7 +50,7 @@
  }
  
  .middle-Watch {
-     background-color: floralwhite;
+     background-color: ghostwhite;
      margin-bottom: 2rem;
      border-radius: 6px;
      box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
@@ -86,6 +86,14 @@
  
  .video-copy-link a {
      color: black;
+ }
+ 
+ .Watch_pages_Name h6 {
+     margin-block-end: 0;
+ }
+ 
+ .pages_post_time p {
+     font-size: .9rem;
  }
  
  .video-copy-link a:hover {
@@ -215,7 +223,7 @@
      justify-content: space-between;
      margin-left: 1rem;
      margin-right: 1rem;
-     margin-top: 1rem;
+     margin-top: .4rem;
      font-size: .9rem;
  }
  
@@ -242,6 +250,16 @@
      padding: 4px 10px;
  }
  
+ .commentsection_upperline {
+     margin-block-start: 5px;
+     margin-block-end: 0;
+ }
+ 
+ .Comentsectin_underline {
+     margin-block-end: 0;
+     margin-block-start: 5px;
+ }
+ 
  .heart-icon {
      width: 1.5rem;
      height: 1.5rem;
@@ -251,21 +269,19 @@
      display: flex;
      align-items: center;
      gap: .5rem;
-     /* margin-left: 1rem;
-    margin-right: 1rem; */
      padding: .6rem;
  }
  
  .comment-post-pic img {
-     width: 40px;
-     height: 40px;
+     width: 30px;
+     height: 30px;
      border-radius: 100%;
      object-fit: cover;
  }
  
  .comment-input {
      width: 100%;
-     border: 1px solid var(--border-color);
+     border: 1px solid lightgray;
      padding: 3px 10px;
      border-radius: 6px;
      outline: none;
@@ -273,8 +289,8 @@
  }
  
  .comment-icon {
-     width: 2rem;
-     height: 2rem;
+     width: 1.5rem;
+     height: 1.5rem;
  }
  /* responsive view midea query  */
  
@@ -304,7 +320,6 @@
          width: 100%;
          margin: 0 auto;
          margin-top: 0px;
-         /* margin-top: 2rem; */
      }
  }
  
@@ -374,16 +389,6 @@
      .Watch-middle-section {
          margin: 0 auto;
          margin-top: 0px;
-         /* margin-top: 2rem; */
          margin-left: 0;
-         /* width: 100%; */
-         /* position: absolute; */
      }
-     /* .Watch-mobile-bar {
-         display: flex;
-         column-gap: .5rem;
-         margin-bottom: 2rem;
-         overflow-x: auto;
-         margin-left: .4rem;
-     } */
  }
