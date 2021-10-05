@@ -105,7 +105,7 @@ const About = () => {
                       <h5 className="friend-numbers">Friends</h5>
                       <p className="text-muted friend-total">465 friends</p>
                     </div>
-                    <Link>See All Friends </Link>
+                    <Link to="/timeline/allfriend/">See All Friends </Link>
                   </div>
                   <div className="friend-list">
                     <div className="friend-timeline">
@@ -182,10 +182,10 @@ const About = () => {
               <div className="Timelinepages-bar">
                 {/* Timeline nav bar item start */}
                 <div className="Timelinepages-bar-button">
-                  <Link>Posts</Link>
+                  <Link  to="/timelinepage">Posts</Link>
                   <Link> About </Link>
-                  <Link> Friends </Link>
-                  <Link>Photos </Link>
+                  <Link to="/timeline/allfriend/"> Friends </Link>
+                  <Link to="/timeline/photos/">Photos </Link>
                 </div>
                 {/* Timeline nav bar item end  */}
                 {/* timeline edit button start */}

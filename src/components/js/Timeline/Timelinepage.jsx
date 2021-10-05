@@ -102,7 +102,7 @@ const Timelinepage = () => {
                       <h5 className="friend-numbers">Friends</h5>
                       <p className="text-muted friend-total">465 friends</p>
                     </div>
-                    <Link>See All Friends</Link>
+                    <Link to="/timeline/allfriend/">See All Friends</Link>
                   </div>
                   <div className="friend-list">
                     <div className="friend-timeline">
@@ -182,10 +182,10 @@ const Timelinepage = () => {
             <div className="Timeline-bar">
               <div className="Timelinepages-bar">
                 <div className="Timelinepages-bar-button">
-                  <Link>Posts</Link>
-                  <Link>About</Link>
-                  <Link> Friends </Link>
-                  <Link> Photos</Link>
+                  <Link to="/timelinepage">Posts</Link>
+                  <Link to="/timeline/about/" >About</Link>
+                  <Link to="/timeline/allfriend/" > Friends </Link>
+                  <Link to="/timeline/photos/"> Photos</Link>
                 </div>
                 {/* timeline edit button start */}
                 <div className="edit-div">

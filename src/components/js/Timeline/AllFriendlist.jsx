@@ -108,7 +108,7 @@ const AllFriendlist = () => {
                       <p className="text-muted friend-total">465 friends</p>
                     </div>
                     <Link>
-                      <span>See All Friends</span>
+                      <Link to="/timeline/allfriend/">See All Friends</Link>
                     </Link>
                   </div>
                   <div className="friend-list">
@@ -175,9 +175,7 @@ const AllFriendlist = () => {
                     <Link>
                       <img src={profileImg} alt="" />
                     </Link>
-                    <Link>
-                      <img src={profileImg} alt="" />
-                    </Link>
+                 
                   </div>
                 </div>
               </div>
@@ -189,10 +187,10 @@ const AllFriendlist = () => {
               <div className="Timelinepages-bar">
                 {/* Timeline nav bar item start */}
                 <div className="Timelinepages-bar-button">
-                  <Link>Posts</Link>
-                  <Link>About</Link>
+                  <Link to="/timelinepage">Posts</Link>
+                  <Link to="/timeline/about/">About</Link>
                   <Link> Friends</Link>
-                  <Link> Photos</Link>
+                  <Link to="/timeline/photos/"> Photos</Link>
                 </div>
                 {/* Timeline nav bar item end  */}
                 {/* timeline edit button start */}

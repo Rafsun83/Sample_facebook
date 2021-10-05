@@ -31,6 +31,7 @@ import Watchpage from "./components/js/Watch/Watchpage";
 
 // Imported context files
 import { DropItemsContext} from "./components/ContextData/DropItemsContext";
+import Marketplace from "./components/js/Marketplace/Marketplace";
 
 
 
@@ -115,7 +116,7 @@ function App() {
             <AllFriendlist />
        </Route> 
        { /* all friend list end  */} 
-       <Route path="/timeline/photos"exact >
+       <Route path="/timeline/photos/"exact >
         <Photos />
        </Route> 
        { /* suggests pages start  */}
@@ -146,6 +147,10 @@ function App() {
 
         </Route>
         {/* watchpage end  */}
+        {/* Marketplace start */}
+        <Route path="/marketplace/" exact>
+          <Marketplace/>
+        </Route>
         </DropItemsContext.Provider>                                   
         </Switch>{" "} 
         </div>

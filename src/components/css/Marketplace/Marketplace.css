@@ -1,0 +1,175 @@
+/* middle section  */
+
+.main {
+    display: grid;
+    grid-template-columns: [first] 26% [line2] auto [end];
+}
+
+.Marketplace-middle-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle-Marketplace {
+    margin-top: 2rem;
+}
+
+
+/* mobile bar start  */
+
+.like-mobile-bar {
+    display: flex;
+    column-gap: 2rem;
+    overflow-x: auto;
+}
+
+.mobile-bar-like-pages {
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
+    margin-top: 1rem;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 30px;
+    width: 143px;
+    /* transition: ease-out 0.3s; */
+    background: linear-gradient(to left, #fff 50%, #65a2df 50%) right;
+    background-size: 200%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-bar-like-pages:hover {
+    background-position: left;
+}
+
+.mobile-bar-like-pages:hover strong {
+    color: #fff;
+}
+
+.mobile-bar-icon {
+    white-space: nowrap;
+    font-size: .8rem;
+}
+
+
+/* mobile bar end */
+
+
+/* card section  */
+
+.Marketplace-card {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    column-gap: 1rem;
+    row-gap: .5rem;
+    margin-top: 1.5rem;
+}
+
+.card-Marketplace {
+    width: 15rem !important;
+    border-radius: 10px !important;
+}
+
+.card-Marketplace a {
+    text-decoration: none;
+    color: #18191a;
+}
+
+.card-Marketplace a:hover {
+    text-decoration: none;
+    color: #18191a;
+}
+
+.Marketplace-card img {
+    width: 239px;
+    height: 130px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Marketplace-name {
+    /* display: flex; */
+    column-gap: .5rem;
+}
+
+.Marketplace-name p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.Marketplace-invites {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* midea query  */
+
+@media screen and (max-width: 1099px) {
+    .main {
+        display: grid;
+        grid-template-columns: [first] 0% [line2] auto [end];
+    }
+    .suggests-side {
+        visibility: hidden;
+        display: none;
+    }
+    .Marketplace-invites {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .Marketplace-middle-section {
+        width: 98%;
+    }
+    .Marketplace-mobile-bar {
+        column-gap: 1rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .like-mobile-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-Marketplace {
+        width: 10rem !important;
+        border-radius: 10px !important;
+    }
+    .Marketplace-card img {
+        width: 159px;
+        height: 90px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .Marketplace-card {
+        display: grid;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        column-gap: 1rem;
+        row-gap: .5rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1.5rem;
+    }
+    .card-Marketplace {
+        width: 17.5rem !important;
+        border-radius: 10px !important;
+        margin-bottom: .5rem;
+    }
+    .Marketplace-card img {
+        width: 17.4rem;
+        height: 156px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}

@@ -68,7 +68,7 @@ const Invitepage = () => {
                 {/* invite group profile picture end  */}
                 {/* invite group name and catagory start  */}
                 <div className="card-body invite-card-body">
-                  <h4 className="card-title  page-name">
+                  <h4 className="card-title  invite-page-name">
                     {" "}
                     Travel Bangladesh and abroad{" "}
                   </h4>
@@ -116,7 +116,7 @@ const Invitepage = () => {
                 {/* invite group profile picture end  */}
                 {/* invite group name and catagory start  */}
                 <div className="card-body invite-card-body">
-                  <h4 className="card-title  page-name">
+                  <h4 className="card-title   invite-page-name">
                     {" "}
                     Travel Bangladesh and abroad{" "}
                   </h4>
@@ -163,7 +163,7 @@ const Invitepage = () => {
                 {/* invite group profile picture end  */}
                 {/* invite group name and catagory start  */}
                 <div className="card-body invite-card-body">
-                  <h4 className="card-title  page-name">
+                  <h4 className="card-title  invite-page-name">
                     Travel Bangladesh and abroad{" "}
                   </h4>
                   <p className="card-text text-muted service">

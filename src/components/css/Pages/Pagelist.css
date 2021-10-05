@@ -68,6 +68,16 @@
     padding: 0px 0px 40px 30px;
 }
 
+
+/* .page-name {
+    word-wrap: break-word;
+}
+
+.card-invite {
+    display: flex;
+    align-items: baseline;
+} */
+
 .pagelist_page_name {
     margin-block-end: 0;
 }

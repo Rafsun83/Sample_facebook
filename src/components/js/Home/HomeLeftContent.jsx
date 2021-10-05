@@ -18,12 +18,15 @@ const HomeLeftContent = () => {
         {/* Profile section starts */}
         <Link className="home__leftLinks">
           <div className="home__leftContent">
-            <div className="profile__leftImg">
+        
+           <div className="profile__leftImg">
               <img src={profileImg} alt="" />
             </div>
+            <Link to="/timelinepage">
             <div className="home__leftText">
               <p>Wasek Samin</p>
             </div>
+           </Link>
           </div>
         </Link>
         {/* Profile section ends */}

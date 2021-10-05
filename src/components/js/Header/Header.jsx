@@ -102,7 +102,7 @@ const Header = () => {
         </div>
         <div className="header__icons">
           <Tooltip title="Watch">
-            <Link className="icon__link">
+            <Link className="icon__link" to="/page/watch/">
               <OndemandVideoOutlinedIcon className="header__icon" />
             </Link>
           </Tooltip>
@@ -149,7 +149,7 @@ const Header = () => {
         {/* User profile section starts */}
         <Tooltip className="your__profileLink" title="Your Profile">
           <div className="profile__section">
-            <Link className="user__profile">
+            <Link className="user__profile" to="/timelinepage">
               <div className="userProfile__img">
                 <img src={profileImg} alt="" />
               </div>
