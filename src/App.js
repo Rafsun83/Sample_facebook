@@ -32,6 +32,7 @@ import Watchpage from "./components/js/Watch/Watchpage";
 // Imported context files
 import { DropItemsContext} from "./components/ContextData/DropItemsContext";
 import Marketplace from "./components/js/Marketplace/Marketplace";
+import Listing from "./components/js/Marketplace/Listing";
 
 
 
@@ -150,6 +151,10 @@ function App() {
         {/* Marketplace start */}
         <Route path="/marketplace/" exact>
           <Marketplace/>
+        </Route>
+        {/* marketplace end */}
+        <Route path="/marketplace/Listing/" exact>
+          <Listing/>
         </Route>
         </DropItemsContext.Provider>                                   
         </Switch>{" "} 

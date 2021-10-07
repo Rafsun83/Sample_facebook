@@ -1,0 +1,194 @@
+.hello {
+    background-color: red;
+    padding: 20px;
+}
+
+.Listing__section {
+    display: grid;
+    grid-template-columns: [first] 26% [second] auto [end];
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.like-mobile-bar {
+    display: flex;
+    column-gap: 1rem;
+}
+
+
+/* middle section  */
+
+.Listing-middle-section {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+}
+
+.middle-Listing {
+    margin-top: 2rem;
+}
+
+.mobile-bar-like-pages {
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
+    margin-top: 1rem;
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 30px;
+    width: 130px;
+    /* transition: ease-out 0.3s; */
+    background: linear-gradient(to left, #fff 50%, #65a2df 50%) right;
+    background-size: 200%;
+    transition: all 0.3s ease-in-out;
+}
+
+.mobile-bar-like-pages:hover {
+    background-position: left;
+}
+
+.mobile-bar-like-pages:hover strong {
+    color: #fff;
+}
+
+.mobile__nav__name {
+    white-space: nowrap;
+}
+
+.like-icon-mobile {
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+
+/* middle card  */
+
+.Listing-sale-card {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.Listing-invites {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Listing-Card {
+    border: 1px solid var(--highlight-gray);
+    /* width: 16%; */
+    height: 100%;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+    border-radius: .5rem;
+    background-color: var( --white-primary);
+    width: 12rem;
+}
+
+.Listing-Card-body {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.Listing-Card-body h5 {
+    white-space: nowrap;
+}
+
+.sale-icon {
+    min-width: 4rem;
+    min-height: 4rem;
+    background: var(--bg-light);
+    border-radius: 100%;
+    padding: 9px;
+}
+
+
+/* midea query  */
+
+@media screen and (max-width: 1099px) {
+    .Listing__section {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .like-side {
+        display: none;
+    }
+    .Listing-middle-section {
+        /* width: 60%; */
+        margin-left: auto;
+        margin-right: auto;
+        /* height: 100vh; */
+        display: block;
+        /* align-items: center; */
+        width: 98%;
+    }
+    .Listing-sale-card {
+        display: block;
+        /* gap: 1rem;
+        flex-wrap: wrap; */
+    }
+    .Listing-Card {
+        border: 1px solid var(--highlight-gray);
+        /* width: 16%; */
+        height: 100%;
+        box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%), 0 0px 4px 0 rgb(0 0 0 / 19%);
+        border-radius: .5rem;
+        background-color: var( --white-primary);
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .like-mobile-bar {
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .like-mobile-bar {
+        visibility: hidden;
+        display: none;
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .like-mobile-bar {
+        column-gap: 1rem;
+        font-size: .7rem;
+        /* width: 80%; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .like-mobile-bar {
+        column-gap: 1rem;
+        margin-top: -2rem;
+    }
+    .like-mobile-bar {
+        column-gap: 1rem;
+        margin-top: -2rem;
+        font-size: .7rem;
+        width: 100%;
+    }
+    .Listing-middle-section {
+        width: 98%;
+        /* margin-left: 1rem; */
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .like-mobile-bar {
+        column-gap: 1rem;
+        margin-top: -2rem;
+        font-size: .7rem;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .Listing-middle-section {
+        width: 98%;
+        /* margin-left: 1rem; */
+    }
+}
