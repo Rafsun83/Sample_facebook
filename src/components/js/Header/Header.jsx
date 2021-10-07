@@ -180,7 +180,9 @@ const Header = () => {
         {/* Show all notification section starts */}
         <Tooltip title="Notifications">
           <div className="right__icons">
-            <NotificationsIcon className="right__icon" />
+            <Link to="/notification/">
+               <NotificationsIcon className="right__icon" />
+            </Link>
           </div>
         </Tooltip>
         {/* Show all notification section ends */}

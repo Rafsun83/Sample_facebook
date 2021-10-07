@@ -24,6 +24,9 @@ import Yourpages from "./components/js/Pages/Yourpages";
 import Managepage from "./components/js/Pages/Managepage";
 import Pagelist from "./components/js/Pages/Pagelist";
 import Watchpage from "./components/js/Watch/Watchpage";
+import Marketplace from "./components/js/Marketplace/Marketplace";
+import Listing from "./components/js/Marketplace/Listing";
+import Notification from "./components/js/Notification/Notification";
 
 
 
@@ -31,8 +34,7 @@ import Watchpage from "./components/js/Watch/Watchpage";
 
 // Imported context files
 import { DropItemsContext} from "./components/ContextData/DropItemsContext";
-import Marketplace from "./components/js/Marketplace/Marketplace";
-import Listing from "./components/js/Marketplace/Listing";
+
 
 
 
@@ -153,9 +155,16 @@ function App() {
           <Marketplace/>
         </Route>
         {/* marketplace end */}
+        {/* listing page start  */}
         <Route path="/marketplace/Listing/" exact>
           <Listing/>
         </Route>
+        {/* Listing page end  */}
+        {/* notification start  */}
+        <Route path="/notification/" exact>
+          <Notification/>
+        </Route>
+
         </DropItemsContext.Provider>                                   
         </Switch>{" "} 
         </div>
