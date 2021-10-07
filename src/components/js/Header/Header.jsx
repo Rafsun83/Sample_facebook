@@ -109,7 +109,7 @@ const Header = () => {
         </div>
         <div className="header__icons">
           <Tooltip title="Marketplace">
-            <Link className="icon__link">
+            <Link className="icon__link" to="/marketplace/">
               <StorefrontOutlinedIcon className="header__icon" />
             </Link>
           </Tooltip>

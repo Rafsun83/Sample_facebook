@@ -14,38 +14,51 @@ const Marketplace = () => {
             <div>
             {/* <!--  second middle section  --> */}
             <div className="Marketplace-middle-section">
-                <div className="middle-Marketplace">
-                    {/* mobile bar */}
-          <div className="like-mobile-bar">
-            <div className="mobile-bar-like-pages">
-              <span
-                className="iconify pages-icon"
-                data-icon="mdi:flag-variant"
-              ></span>
-              <div className="mobile-bar-icon">
-                <strong>Your pages</strong>
+                 {/* <!-- mobile view nav bar  --> */}
+          <div className="Yourpages-mobile-bar">
+            {/* mobile view bar item-1 start */}
+            <Link>
+              <div className="mobile-bar-Your-pages">
+                <span
+                  className="iconify pages-icon"
+                  data-icon="mdi:flag-variant"
+                ></span>
+                <div>
+                  <strong className="mobile_nav">Your pages</strong>
+                </div>
               </div>
-            </div>
-            <div className="mobile-bar-like-pages">
-              <span
-                className="iconify like-icon-mobile"
-                data-icon="mdi:account-child-circle"
-              ></span>
-              <div className="mobile-bar-icon">
-                <strong>Discover</strong>
+            </Link>
+            {/* mobile view bar item-1 end  */}
+            {/* mobile view bar item-2 start  */}
+            <Link>
+              <div className="mobile-bar-Your-pages">
+                <span
+                  className="iconify modify-icon"
+                  data-icon="mdi:account-child-circle"
+                ></span>
+                <div>
+                  <strong className="mobile_nav">Discover</strong>
+                </div>
               </div>
-            </div>
-            <div className="mobile-bar-like-pages">
-              <span
-                className="iconify like-icon-mobile"
-                data-icon="mdi:thumb-up"
-              ></span>
-              <div className="mobile-bar-icon">
-                <strong>Like page</strong>
+            </Link>
+            {/* mobile view bar item-2 end  */}
+            {/* mobile view bar item-3 start  */}
+            <Link>
+              <div className="mobile-bar-Your-pages">
+                <span
+                  className="iconify modify-icon"
+                  data-icon="mdi:thumb-up"
+                ></span>
+                <div>
+                  <strong className="mobile_nav">Like page</strong>
+                </div>
               </div>
-            </div>
+            </Link>
+            {/* mobile view bar item-3 end  */}
           </div>
-          {/* mobile bar end        */}
+          {/* <!-- mobile view nab bar end  --> */}
+                <div className="middle-Marketplace">
+                    
                     <div class="Marketplace-invites">
                         <h4><strong>Electronics</strong></h4>
                         <a href="">See All</a>

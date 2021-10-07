@@ -6,6 +6,8 @@
 .invite-section {
     display: grid;
     grid-template-columns: [first] 26% [line2] auto [end];
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 

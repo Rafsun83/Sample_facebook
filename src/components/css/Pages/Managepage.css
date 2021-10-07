@@ -1,6 +1,8 @@
 .Managepage_full_section {
     display: grid;
     grid-template-columns: [first] 26% [second] auto [end];
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 

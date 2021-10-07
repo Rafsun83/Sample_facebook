@@ -1,11 +1,8 @@
 .Yourpages_main_section {
     display: grid;
     grid-template-columns: [first] 26% [second] auto [end];
-}
-
-.hello {
-    background-color: red;
-    padding: 20px;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 

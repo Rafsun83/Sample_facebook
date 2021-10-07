@@ -66,7 +66,7 @@ const HomeLeftContent = () => {
         {/* Friends section ends */}
 
         {/* Watch section starts */}
-        <Link className="home__leftLinks">
+        <Link className="home__leftLinks" to="/page/watch/">
           <div className="home__leftContent">
             <div className="watch__icon">
               <OndemandVideoOutlinedIcon />
@@ -92,7 +92,7 @@ const HomeLeftContent = () => {
         {/* Groups section ends */}
 
         {/* Marketplace section starts */}
-        <Link className="home__leftLinks">
+        <Link className="home__leftLinks" to="/marketplace/">
           <div className="home__leftContent">
             <div className="market__icon">
               <StorefrontOutlinedIcon />
@@ -105,7 +105,7 @@ const HomeLeftContent = () => {
         {/* Marketplace section ends */}
 
         {/* Advertising section starts */}
-        <Link className="home__leftLinks">
+        <Link className="home__leftLinks" to="/page/managepage/">
           <div className="home__leftContent">
             <div className="home__leftIcon">
               <span
